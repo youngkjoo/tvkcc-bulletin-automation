@@ -16,7 +16,11 @@ When the user triggers this workflow, execute the following steps in order:
 - Open the post and extract the `.pdf` link for the bulletin.
 - Download or read the contents of the PDF.
 
-### 2. Extract Key Sections
+### 2. Retrieve Sunday Liturgy Title
+- Determine the date of the upcoming Sunday.
+- Go to `https://bible.usccb.org/` and find the English liturgy title for that Sunday (e.g., "Fifth Sunday of Easter").
+
+### 3. Extract Key Sections
 The Korean bulletin contains many pages, but we only care about specific sections (usually on the last page). Extract:
 - **Liturgy Schedule (전례일정)**
 - **Community Events / Announcements (본당소식)**
@@ -24,7 +28,7 @@ The Korean bulletin contains many pages, but we only care about specific section
 - **Prayer List (기도해 주십시오)**
 - **Priest Schedule (사제일정)**
 
-### 3. Translate and Format
+### 4. Translate and Format
 Translate the extracted sections from Korean to English. 
 **CRITICAL:** You must format the translated output exactly according to the rules defined in `bulletin_style_guide.md`. 
 **CRITICAL:** Before translating any Community Event/Announcement, you MUST check `bulletin_announcement_catalog.md`. If the announcement matches a template in the catalog, use that exact template and fill in the brackets.
@@ -33,8 +37,9 @@ Translate the extracted sections from Korean to English.
 - Use the standard keys: `Date/time:`, `Location:`, `Who:`, `Contact:`.
 - Maintain Korean characters for names followed by baptismal names.
 
-### 4. Output Generation
+### 5. Output Generation
 Create or overwrite the file `~/Vibe/TVKCC Jubo/weekly_translation_draft.md` with the final translated text. Format the text inside the file into clean Markdown chunks:
+- **Header**: Include the Date and the Liturgy Title (e.g., `May 3, 2026 - Fifth Sunday of Easter`) at the very top.
 - **Chunk 1: Liturgy Schedule**
 - **Chunk 2: Announcements**
 - **Chunk 3: Offertory Numbers**
@@ -44,6 +49,6 @@ After saving the file, use the `run_command` tool to automatically open the late
 Run this command to explicitly open them in a brand new Google Chrome window with three tabs:
 `open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft.md "https://drive.google.com/drive/folders/1xVZz_U6tnMSQjlmFU1zj0doT8-pCVDZS"`
 
-### 5. Post-Translation Style Guide Update
+### 6. Post-Translation Style Guide Update
 After you have finished creating your English Google Doc, if you made any manual style adjustments or added new announcement types, simply export it as a PDF and provide me (Antigravity) with the file path.
 - I will parse your new English PDF, detect any new patterns or formatting changes you introduced, and automatically update the `bulletin_style_guide.md` to ensure I apply your new styles next week!
