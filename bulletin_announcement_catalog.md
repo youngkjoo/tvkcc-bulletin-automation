@@ -1,0 +1,188 @@
+# TVKCC Master Announcement Catalog
+
+This catalog serves as the master database for all announcements that have appeared in the bulletin across 2024, 2025, and 2026 (103 total PDFs scanned). 
+
+**Agent Instruction:** When translating the weekly bulletin, ALWAYS search this catalog first. If a Korean announcement matches the intent of one of these templates (even if slightly modified), use this exact English template and simply update the bracketed variables `[Like This]`. If multiple details have changed, adapt the template slightly while maintaining the core structure.
+
+---
+
+### 1. Basic Christian Faith Community Leaders Meeting
+**Template:**
+**Basic Christian Faith Community Leaders Meeting**
+● Date/time: [Date] ([Day]) [Time] AM/PM
+● Location: [Location, e.g., Room A]
+
+---
+
+### 2. St. Mary Society Group Purchase
+**Template:**
+**St. Mary Society [Quarter/Season] Group Purchase**
+● Items: [List of items, e.g., sesame oil, perilla oil, vegetables/seafoods]
+● Order period: [Start Date] - [End Date]
+● Pick up: [Date(s)]
+● Proceeds will be donated to the church building fund.
+● Contact: [Name & Baptismal Name] [Phone Number]
+
+---
+
+### 3. New Parishioners Welcome Event
+**Template:**
+**New Parishioners Welcome Event**
+● Date/time: [Date] ([Day]), [Time] AM/PM
+● Location: [Location, e.g., Room A]
+● Who: Newly baptized, those transferring from other parishes, or anyone interested in the TVKCC community.
+● Contact: [Name & Baptismal Name] [Phone Number]
+
+---
+
+### 4. Special Blessing Ceremony / Mass
+**Template:**
+**[Name of Event/Ceremony]**
+● Date/time: [Date] ([Day]), during [Time] mass
+● Target: [Target audience, e.g., 12th graders]
+● Registration: [Link or Method]
+● Register by: [Deadline Date]
+
+---
+
+### 5. CBLM Bible Study Registration
+**Template:**
+**CBLM Bible Study**
+● Accepting registration for bible study groups (Korean, English)
+● [List of books, e.g., Genesis, Exodus, Mark, John, Acts of Apostles, Isaiah]
+● Contact: [Name] [Phone Number]
+
+---
+
+### 6. TVKCC Ladies Night Out
+**Template:**
+**TVKCC Ladies Night Out**
+● St. Mary’s Society is hosting a time for ladies to socialize.
+● Date/time: [Date] (Fri), [Time] - [Time]
+● Location: [Location, e.g., Room A]
+● Free drinks and food will be provided.
+● RSVP: [Name] [Phone Number]
+
+---
+
+### 7. St. Joseph Group Oyster Party
+**Template:**
+**St. Joseph Group [Year] Oyster Party**
+● Date/time: [Date] (Sat), [Time] - [Time]
+● Location: Church parking lot
+● Target: All parishioners who want to enjoy seasonal oysters
+● Menu: raw oysters, steamed/BBQ oysters, steamed crab, seafood pancake, seaweed oyster soup, fried oyster/squid, oyster ramen.
+● Note: All menu items sold at cost price!
+● Inquiry: [Name] [Phone Number]
+
+---
+
+### 8. Women’s Cursillo Volunteer Recruitment
+**Template:**
+**Mid West [Number] Women’s Cursillo Volunteer Recruitment**
+● Cursillo weekend schedule: [Date] (Thr) - [Date] (Sun)
+● Location: St. Clare’s Retreat, 2381 Laurel Glen Rd., Soquel, CA
+● Apply by: [Date]
+● Contact: [Name] [Phone Number]
+
+---
+
+### 9. Mass Intentions for Faithful Departed (Lunar New Year / Chuseok)
+**Template:**
+**Mass Intentions for [Holiday] Mass for Faithful Departed**
+● Mass date/time: [Date] (Sun) [Time]
+● Submit by: [Date] (Tue)
+● Submit through Google Form or at church office: [Link]
+● Offerings can be dropped off at the church office desk in front of the chapel before and after masses.
+
+---
+
+### 10. Feast of the Presentation of the Lord Candle Offering
+**Template:**
+**Feast of the Presentation of the Lord Candle Offering and Blessing**
+● Accepting orders for offering and altar candles for this year.
+● You may also bring personal candles for blessing.
+● Blessed candles can be purchased from [Date] (Mon).
+
+---
+
+### 11. TVKCC Youth Day Volunteers Recruitment
+**Template:**
+**TVKCC Youth Day Volunteers Recruitment**
+● We are looking for volunteers to help with the TVKCC Youth Day event on [Date].
+● Target: Young adults and Sunday School parents
+● Application: [Link]
+
+---
+
+### 12. New Testament / Bible Spring Semester Class
+**Template:**
+**[Topic/Book] [Semester] Semester Class**
+● A program to read Bible texts weekly and attend Zoom lectures. This semester covers [Specifics].
+● Period: [Date] - [Date]
+● Time: Every Thursday [Time] - [Time] (Pacific Time)
+● Location: Zoom
+● Lecturer: [Name] ([Organization])
+● Fee: $[Amount] (lecture & textbook)
+● Registration: [Link]
+● Payment details: [Venmo/Zelle info]
+
+---
+
+### 13. Charismatic Prayer Meeting Time Change
+**Template:**
+**Charismatic Prayer Meeting [Time Change/Update]**
+● The Charismatic Prayer meeting time has changed to [Day] [Time]. We ask for your active participation.
+● The first Charismatic Prayer meeting of [Year] will be on [Date] ([Day]), [Time] in the [Location]. Snacks will be provided.
+● Contact: [Name] [Phone Number]
+
+---
+
+### 14. Contribute Your Stories to the Bulletin!
+**Template:**
+**Contribute Your Stories to the Bulletin!**
+● We would like to feature your precious stories in our parish bulletin. Any topic is welcome, such as touching stories you have experienced in your faith life, reflections you wish to share, or warm thoughts about our community. Your writing will be a great grace and comfort to us all.
+● Submissions are accepted at any time throughout the year, and they can be published with your name or anonymously.
+● Please send your completed writings to [Email Address].
+
+---
+
+### 15. Daughters of St. Paul Bible School Accepting New Students
+**Template:**
+**Daughters of St. Paul Bible School Accepting New Students**
+● Courses: Introductory, Intermediate, St. Paul Theology & Spirituality
+● Method: Choose between mail or e-learning (video lectures)
+● Register: uus.pauline.or.kr, deadline [Date]
+● Contact: 02-944-0819~23, 010-5584-8945
+
+---
+
+### 16. TVCS Volunteer Activities Report
+**Template:**
+**[Year] TVCS Volunteer Activities Report**
+● Over the past [time period], we raised $[Amount] through events such as [Events], and delivered it to relevant organizations. Thank you to all parishioners who took interest in the events and donated.
+● Participants (alphabetical): [List of Names].
+
+---
+
+### 17. Starting Marian Devotion Mass
+**Template:**
+**Starting Marian Devotion Mass**
+● Marian Devotion Mass will be offered monthly on the [Day of month, e.g., 1st Saturday].
+● Intention for Mass & Rosary before Mass: For inactive parishioners.
+
+---
+
+### 18. Holy Water Stand
+**Template:**
+**Holy Water Stand**
+● A holy water stand is located at the entrance of the church. Those who need it may bring a clean container to take holy water.
+
+---
+
+### 19. Regular Group Meetings
+**Template:**
+**[Name of Group, e.g., Legion of Mary Curia / Joachim and Anna Group / Secular Franciscan Order] Monthly Meeting**
+● Date/time: [Date] ([Day]) [Time]
+● Location: [Room]
+● [Optional details: e.g., Bring handbook and Rosary]
