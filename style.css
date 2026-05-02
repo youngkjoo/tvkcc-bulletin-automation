@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+:root {
+  --primary: #1a5276;
+  --primary-light: #2980b9;
+  --accent: #27ae60;
+  --accent-dark: #1e8449;
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #2c3e50;
+  --text-light: #5d6d7e;
+  --border: #e0e4e8;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Banner ── */
+.banner {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.banner::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), #f1c40f, var(--accent));
+}
+.banner h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+.banner .subtitle {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+.banner .date-badge {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 0.4rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* ── Container ── */
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+/* ── Section Cards ── */
+.section {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.section-header {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.section-header.green { background: var(--accent-dark); }
+.section-header.gold { background: #b7950b; }
+.section-header.slate { background: #5d6d7e; }
+.section-body {
+  padding: 1.25rem;
+}
+
+/* ── Liturgy list ── */
+.liturgy-list {
+  list-style: none;
+  padding: 0;
+}
+.liturgy-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+.liturgy-list li:last-child { border-bottom: none; }
+.liturgy-list .date-tag {
+  display: inline-block;
+  background: #eaf2f8;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  margin-right: 0.35rem;
+}
+.liturgy-list .sub-note {
+  display: block;
+  margin-top: 0.25rem;
+  padding-left: 1rem;
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* ── Announcements ── */
+.announcement {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.announcement:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.announcement h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+.announcement ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.announcement li {
+  font-size: 0.9rem;
+  padding: 0.15rem 0;
+  line-height: 1.6;
+}
+.announcement li strong {
+  color: var(--text);
+}
+
+/* ── Offertory Table ── */
+.offertory-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+}
+.offertory-table th {
+  background: #eaf2f8;
+  color: var(--primary);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-light);
+}
+.offertory-table td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+.offertory-table tr:last-child td {
+  border-bottom: none;
+  font-weight: 700;
+}
+.offertory-note {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+.donor-group { margin-bottom: 0.75rem; }
+.donor-group h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.15rem;
+}
+.donor-group p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* ── Schedule Table ── */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.schedule-table th {
+  background: #eaf2f8;
+  color: var(--primary);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-light);
+}
+.schedule-table td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Prayer ── */
+.prayer-names {
+  font-size: 0.92rem;
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+.prayer-note {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* ── Print Button ── */
+.print-bar {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.print-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 0.55rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+.print-btn:hover { background: var(--primary-light); transform: translateY(-1px); }
+.print-btn svg { width: 16px; height: 16px; }
+
+/* ── Footer ── */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.78rem;
+  color: var(--text-light);
+}
+.footer a { color: var(--primary-light); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* ── Archive Index ── */
+.archive-list { list-style: none; padding: 0; }
+.archive-list li {
+  border-bottom: 1px solid var(--border);
+}
+.archive-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 0.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: background 0.15s;
+  border-radius: 6px;
+}
+.archive-list a:hover { background: #eaf2f8; }
+.archive-list .arch-date {
+  font-weight: 600;
+  color: var(--primary);
+  min-width: 110px;
+}
+.archive-list .arch-title {
+  flex: 1;
+  margin-left: 0.75rem;
+}
+.archive-list .arch-arrow {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+/* ── Mass Info ── */
+.mass-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1.5rem;
+}
+.mass-info-item {
+  font-size: 0.9rem;
+  padding: 0.3rem 0;
+}
+.mass-info-item strong {
+  color: var(--primary);
+}
+
+/* ── Print Media ── */
+@media print {
+  body { background: #fff; }
+  .print-bar, .footer { display: none; }
+  .section { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+  .banner { background: var(--primary) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .banner h1 { font-size: 1.2rem; }
+  .container { padding: 1rem 0.75rem 2rem; }
+  .mass-info { grid-template-columns: 1fr; }
+}
