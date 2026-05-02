@@ -69,7 +69,7 @@ Use `~/Vibe/TVKCC Jubo/bulletins/2026-05-03.html` as the **reference template**.
 7. **Announcements Grid** — Replace with this week's announcements in a two-column `<div class="announcements-grid">`. Use `<div class="announcement">` blocks with `<h3>` title and `<ul>` list. Balance left and right columns roughly equally.
 8. **Offertory Table** — Update the amounts and donor lists.
 9. **Pope's Prayer Intention** — Update the `<div class="pope-box">` with the current month's intention (title + prayer text).
-10. **QR Code Block** — Keep as-is (static link to tvkcc.org/online-giving/).
+10. **QR Code Block** — Keep as-is (static link to tvkcc.org/onlinegiving/).
 11. **Schedule + Prayer Box** — Update the Sunday School/Priest schedule table and the "Please pray for" names list (located below the Mass table).
 12. **Navigation links** — Add `← Previous Week` and `Next Week →` links in the footer pointing to the adjacent bulletin pages. Only show links for weeks that exist.
 13. **Korean Bulletin Link** — Add a link to the original Korean PDF in the `<div class="korean-link-bar">` section.
