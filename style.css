@@ -37,23 +37,29 @@ body {
 
 /* ── Header / Banner ── */
 .header-block {
-  padding: 1.5rem 2rem 1rem;
-  text-align: center;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 2px solid var(--olive);
+  background: #fff;
 }
-.church-name {
-  font-size: 1.35rem;
-  font-weight: 700;
+.header-logo {
+  height: 65px;
+  display: block;
+}
+.header-personnel {
+  text-align: right;
+  font-size: 0.72rem;
+  color: var(--text);
+  line-height: 1.4;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.header-personnel div {
+  margin-bottom: 1px;
+}
+.header-personnel strong {
   color: var(--olive);
-  letter-spacing: 0.02em;
-}
-.church-name-en {
-  font-size: 0.82rem;
-  color: var(--text-light);
-  font-weight: 400;
-  margin-top: 0.1rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
 }
 
 /* ── Title Bar (olive/gold like the Korean bulletin) ── */
@@ -156,10 +162,9 @@ body {
   white-space: nowrap;
 }
 
-/* ── Leadership list ── */
+/* ── Leadership list (In header now, but keeping class for other uses) ── */
 .leadership {
-  font-size: 0.82rem;
-  margin-bottom: 0.5rem;
+  display: none; /* Hidden in main content as it's now in header */
 }
 .leadership-row {
   display: flex;
