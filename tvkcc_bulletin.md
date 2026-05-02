@@ -33,7 +33,7 @@ Translate the extracted sections from Korean to English.
 **CRITICAL:** You must format the translated output exactly according to the rules defined in `bulletin_style_guide.md`. 
 **CRITICAL:** Before translating any Community Event/Announcement, you MUST check `bulletin_announcement_catalog.md`. If the announcement matches a template in the catalog, use that exact template and fill in the brackets.
 - Ensure dates are formatted as `M/D (Day)`.
-- Use standard markdown bullets (`-`) for all bullet points. Do NOT use Unicode characters like `●` or `◦` — these do not paste cleanly into Google Docs.
+- Use standard markdown bullets (`*`) for all bullet points. Do NOT use Unicode characters like `●` or `◦` or dashes (`-`) — use asterisks (`*`) as they paste most cleanly into Google Docs as proper bullet dots.
 - Use the standard keys: `Date/time:`, `Location:`, `Who:`, `Contact:`.
 - Maintain Korean characters for names followed by baptismal names.
 
