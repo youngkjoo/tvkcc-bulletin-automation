@@ -41,8 +41,8 @@ Create or overwrite the file `~/Vibe/TVKCC Jubo/weekly_translation_draft.md` wit
 - **Chunk 4: Priest Schedule & Prayers**
 
 After saving the file, use the `run_command` tool to automatically open the latest Korean PDF and the new draft file on the user's Mac so they are immediately ready to work. 
-Run this command to explicitly open them in a brand new Google Chrome window with two tabs:
-`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft.md`
+Run this command to explicitly open them in a brand new Google Chrome window with three tabs:
+`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft.md "https://drive.google.com/drive/folders/1xVZz_U6tnMSQjlmFU1zj0doT8-pCVDZS"`
 
 ### 5. Post-Translation Style Guide Update
 After you have finished creating your English Google Doc, if you made any manual style adjustments or added new announcement types, simply export it as a PDF and provide me (Antigravity) with the file path.
