@@ -88,6 +88,25 @@ body {
 .church-info .right { text-align: right; }
 .church-info strong { font-weight: 700; }
 
+.korean-link-bar {
+  text-align: center;
+  padding: 0.6rem;
+  background: var(--section-bg);
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.82rem;
+}
+.korean-link-bar a {
+  color: var(--olive);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.korean-link-bar a:hover {
+  text-decoration: underline;
+}
+
 /* ── Content area ── */
 .content {
   padding: 1.25rem 2rem 2rem;

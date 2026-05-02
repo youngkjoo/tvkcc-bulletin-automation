@@ -72,6 +72,7 @@ Use `~/Vibe/TVKCC Jubo/bulletins/2026-05-03.html` as the **reference template**.
 10. **QR Code Block** — Keep as-is (static link to tvkcc.org/online-giving/).
 11. **Schedule + Prayer Row** — Update the schedule table and prayer names.
 12. **Navigation links** — Add `← Previous Week` and `Next Week →` links in the footer pointing to the adjacent bulletin pages. Only show links for weeks that exist.
+13. **Korean Bulletin Link** — Add a link to the original Korean PDF in the `<div class="korean-link-bar">` section.
 
 After generating the HTML file, **update the index page** at `~/Vibe/TVKCC Jubo/index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
