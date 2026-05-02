@@ -21,12 +21,17 @@ When the user triggers this workflow, execute the following steps in order:
 - Go to `https://bible.usccb.org/` and find the English liturgy title for that Sunday (e.g., "Fifth Sunday of Easter").
 
 ### 3. Extract Key Sections
-The Korean bulletin contains many pages, but we only care about specific sections (usually on the last page). Extract:
-- **Liturgy Schedule (전례일정)**
-- **Community Events / Announcements (본당소식)**
+The Korean bulletin contains data across multiple pages. Extract ALL of the following:
+
+**From Page 1:**
+- **Mass & Sunday School Schedule (미사/주일학교)** — Korean Mass, English Mass, Sunday School, Weekday Mass, Confession, Holy Hour times
+- **Priest & Parish Leadership** — Pastor, Pastoral Council President, Chief District Leader, Funeral Ministry Head with names and phone numbers
+
+**From the last page (공지사항 / Offertory):**
+- **Liturgy Schedule & Key Dates (전례일정)**
+- **Community Events / Announcements (본당소식)** — translate EVERY detail including sub-notes under liturgy items (e.g., donation deadlines)
 - **Offertory and Donations (감사헌금 및 교무금)**
 - **Prayer List (기도해 주십시오)**
-- **Priest Schedule (사제일정)**
 
 ### 4. Translate and Format
 Translate the extracted sections from Korean to English. 
@@ -40,10 +45,10 @@ Translate the extracted sections from Korean to English.
 ### 5. Output Generation
 Create a new file named `~/Vibe/TVKCC Jubo/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. Format the text inside the file into clean Markdown chunks:
 - **Header**: Include the Date and the Liturgy Title (e.g., `May 3, 2026 - Fifth Sunday of Easter`) at the very top.
-- **Chunk 1: Liturgy Schedule**
-- **Chunk 2: Announcements**
-- **Chunk 3: Offertory Numbers**
-- **Chunk 4: Priest Schedule & Prayers**
+- **Chunk 1: Mass & Sunday School Schedule** (from page 1) and **Priest & Parish Leadership**
+- **Chunk 2: Liturgy & Key Dates**
+- **Chunk 3: Announcements**
+- **Chunk 4: Offertory Numbers**
 
 After saving the file, use the `run_command` tool to automatically open the latest Korean PDF and the new draft file on the user's Mac so they are immediately ready to work. 
 Run this command to explicitly open them in a brand new Google Chrome window with three tabs:
