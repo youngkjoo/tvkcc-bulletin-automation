@@ -38,7 +38,7 @@ Translate the extracted sections from Korean to English.
 - Maintain Korean characters for names followed by baptismal names.
 
 ### 5. Output Generation
-Create or overwrite the file `~/Vibe/TVKCC Jubo/weekly_translation_draft.md` with the final translated text. Format the text inside the file into clean Markdown chunks:
+Create a new file named `~/Vibe/TVKCC Jubo/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. Format the text inside the file into clean Markdown chunks:
 - **Header**: Include the Date and the Liturgy Title (e.g., `May 3, 2026 - Fifth Sunday of Easter`) at the very top.
 - **Chunk 1: Liturgy Schedule**
 - **Chunk 2: Announcements**
@@ -47,7 +47,7 @@ Create or overwrite the file `~/Vibe/TVKCC Jubo/weekly_translation_draft.md` wit
 
 After saving the file, use the `run_command` tool to automatically open the latest Korean PDF and the new draft file on the user's Mac so they are immediately ready to work. 
 Run this command to explicitly open them in a brand new Google Chrome window with three tabs:
-`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft.md "https://drive.google.com/drive/folders/1xVZz_U6tnMSQjlmFU1zj0doT8-pCVDZS"`
+`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft_[YYYY-MM-DD].md "https://drive.google.com/drive/folders/1xVZz_U6tnMSQjlmFU1zj0doT8-pCVDZS"`
 
 ### 6. Post-Translation Style Guide Update
 After you have finished creating your English Google Doc, if you made any manual style adjustments or added new announcement types, simply export it as a PDF and provide me (Antigravity) with the file path.
