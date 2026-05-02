@@ -183,6 +183,87 @@ This catalog serves as the master database for all announcements that have appea
 ### 19. Regular Group Meetings
 **Template:**
 **[Name of Group, e.g., Legion of Mary Curia / Joachim and Anna Group / Secular Franciscan Order] Monthly Meeting**
-● Date/time: [Date] ([Day]) [Time]
-● Location: [Room]
-● [Optional details: e.g., Bring handbook and Rosary]
+* Date/time: [Date] ([Day]) [Time]
+* Location: [Room]
+* [Optional details: e.g., Bring handbook and Rosary]
+
+---
+
+### 20. Funeral Mass and Entombment Ceremony
+**Template:**
+**Funeral Mass and Entombment Ceremony**
+* Deceased: [Korean Name] [Baptismal Name] (Age [Age], [Small Group], [relationship details])
+* Funeral Mass: [Date] ([Day]), [Time], [Location]
+* Entombment Ceremony: [Date] ([Day]), [Time], [Cemetery Name]
+* Please pray for the deceased and the bereaved family.
+
+---
+
+### 21. St. Anthony Foundation Free Clothing Program
+**Template:**
+**St. Anthony Foundation Free Clothing Program**
+* St. Anthony's Foundation operates the largest free clothing program in San Francisco, providing new or gently used clothing free of charge to individuals and families experiencing homelessness and poverty.
+* Items needed: [Items, e.g., Men's clothing (washed, neat clothes)]
+* Deadline: [Date] ([Day])
+* We ask for your participation in serving the poor according to the Franciscan vow at St. Anthony Foundation.
+* Contact: [Name]
+
+---
+
+### 22. Group Outing
+**Template:**
+**[Group Name] Outing**
+* Date: [Date] ([Day])
+* Location: [Location]
+* Please pray for them to have a good time. Donations for the outing will be accepted at the office until the [Date].
+
+---
+
+### 23. Novena Intentions for Confirmation Candidates
+**Template:**
+**TVKCC's Novena Intentions for Confirmation Candidates**
+* Candidates: [List of Names]
+* [Date]: Confirmation students & [intention]
+* [Date]: Confirmation students & [intention]
+* ... (one line per day of the novena)
+
+---
+
+### 24. Friendly Soccer Match
+**Template:**
+**Friendly Soccer Match (TVKCC vs [Opponent])**
+* Date/time: [Date] ([Day]), [Time], meals after the game
+* Location: [Location]
+* Contact: [Name] [Phone Number]
+
+---
+
+### 25. CCOP Knights of Columbus Baby Bottle Fundraiser
+**Template:**
+**[Year] CCOP Knights of Columbus Baby Bottle Fundraiser**
+* The purpose is to raise funds for local pregnancy support centers such as [Centers].
+* You can place your donation in the Baby Bottles at vestibule
+* Collection date: [Date] ([Day])
+* Make checks payable to: "Knights of Columbus" or "CCOP, for Baby Bottle"
+
+---
+
+### 26. UNITAS Young Adult Retreat
+**Template:**
+**[Year] UNITAS - Bay Area Korean-American Young Adult Retreat**
+* Date: [Start Date] ([Day]) - [End Date] ([Day])
+* Location: [Location]
+* Registration: [Link]
+* Fee: Early Bird $[Amount] (until [Date]), Regular $[Amount] (after [Date])
+* Contact: [Email]
+
+---
+
+### 27. Mother's Day / Father's Day Event
+**Template:**
+**[Year] [Mother's/Father's] Day Event**
+* Hosted by: [Group] / Target: All parishioners
+* Date/time/location: [Date] ([Day]), [Time], [Location]
+* Menu: [Menu items]
+* Fee: [Fee info]
+* Contact: [Name] [Phone Number]

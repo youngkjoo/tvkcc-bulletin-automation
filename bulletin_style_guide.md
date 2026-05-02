@@ -1,39 +1,47 @@
 # TVKCC English Bulletin Style Guide
 
-Based on an analysis of the past 12 months of translated bulletins (2025–2026), this style guide establishes the strict formatting rules for the English version of the TVKCC Weekly Announcements.
+Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style guide establishes the strict formatting rules for the English version of the TVKCC Weekly Announcements.
 
 ## 1. General Formatting & Typography
 - **Dates:** Always format dates as `M/D (Day)` (e.g., `4/26 (Sun)` or `5/3 (Sun)`).
-- **Bullet Points:**
-  - Use `◦` (empty bullet) for high-level lists like the *Liturgy Schedule*.
-  - Use `●` (solid bullet) for detailed properties under specific *Community Events*.
+- **Bullet Points:** Use standard markdown asterisks (`*`) for all bullets. Do NOT use Unicode characters like `●` or `◦` — they don't paste cleanly into Google Docs.
+- **Header:** Every bulletin starts with the liturgy title and date on the same line, e.g., `Fifth Sunday of Easter  5/3/2026`
 
 ## 2. Liturgy Schedule
-Format this as a simple bulleted list with the date, day, and event name. 
+Format this as a simple bulleted list with the date, day, and event name.
+**Important:** If a liturgy item has a sub-note (e.g., a donation deadline), include it as a sentence immediately after the item — not as a separate bullet.
 **Example:**
-◦ 4/26 (Sun) Sunday School Vacation
-◦ 4/28 (Tue) Marian Adoration Mass 9:30 AM
-◦ 5/3 (Sun) TVKCC Youth Day 9 AM mass
+* 5/3 (Sun) TVKCC Youth Day 9 AM mass, First communion, children's baptism, Youth Faith Festival
+* 5/17 (Sun) Outdoor Mass & Marian Day (10 AM, combined Korean/English Mass), 11 AM CCOP Mass
+  We are accepting donations for the outdoor mass by 5/10 (Sun). Submit your donation at the church office or to the pastoral council.
 
 ## 3. Community Events & Announcements
 When translating announcements from the Korean bulletin, structure them with the main Title, followed by bulleted properties. Ensure consistency in property labels.
-- Do not use random phrasing; stick to these standard keys:
-  - `● Date/time:` or `● Date:`
-  - `● Location:`
-  - `● Target:` or `● Who:`
-  - `● Contact:`
+- **Combined properties:** When multiple short properties logically group together, you may combine them on a single line using `/` separators (e.g., `Hosted by: ... / Target: ...`).
+- **Combined Date/time/location:** If concise, use `Date/time/location:` on a single line.
+- Standard keys:
+  - `* Hosted by:` / `* Target:`
+  - `* Date/time:` or `* Date:` or `* Date/time/location:`
+  - `* Location:`
+  - `* Target:` or `* Who:`
+  - `* Contact:`
+  - `* Fee:`
+  - `* Menu:`
 
 **Example:**
-**New Parishioners Welcome Event**
-● Date/time: 4/26 (Sun), 10:40 AM
-● Location: Room A
-● Who: Newly baptized, those transferring from other parishes, or anyone interested in the TVKCC community.
-● Contact: 유연호 안나 (612) 849-0873
+**2026 Mother's Day Event**
+* Hosted by: St. Joseph Society / Target: All parishioners
+* Date/time/location: 5/10 (Sun), 10:45 AM - 12:45 PM, Gym
+* Menu: Bossam, bindaetteok, buckwheat noodles, makgeolli, and special menu
+* Fee: Free (Dine-in only, sorry we won't be able to provide to-go)
+* Contact: 장진환 라파엘 (408) 722-7383
 
 *Note: Maintain Korean names alongside their baptismal names (e.g., 유연호 안나).*
 
 ## 4. Offertory and Donations Table
-The financial data requires strict column adherence. When extracting this table, ensure the values match these exact categories:
+Start with the payable-to note: `Please make checks payable to Tri-Valley Korean Catholic Church`
+
+The financial data requires strict column adherence. List amounts in these exact categories:
 1. **Mass Offertory (Korean)**
 2. **Mass Offertory (English)**
 3. **Annual Pledge** (교무금)
@@ -41,15 +49,27 @@ The financial data requires strict column adherence. When extracting this table,
 5. **Bishop's Appeal**
 6. **Total**
 
-Translate the lists of donors by grouping them under the English category names:
-● Inquiry of Annual Pledge (교무금)
-● Vocation Promotion (성소후원)
-● Bishop’s Appeal
-● Church building fund (건축봉헌)
+After the table, add the note: `The inquiry of the annual pledge is everyone's responsibility.`
 
-## 5. We Ask For Your Prayer
-When translating the prayer list, simply list the names in the standard format: `[Korean Name] [Baptismal Name]`. Do not translate the Korean names to English phonetics unless specified.
+Translate the lists of donors by grouping them under the English category names:
+* 교무금 (Inquiry of Annual Pledge)
+* 성소후원 (Vocation Promotion)
+* Bishop's Appeal
+* 건축봉헌 (Church building fund)
+
+## 5. Sunday School & Priest Schedule Table
+Format as a simple table with three columns: **Date**, **Sunday School (Y/N)**, and **Priest Name**.
+**Example:**
+| Date | Sunday School | Priest |
+|------|--------------|--------|
+| 5/3/2026 | N | Fr. Jim |
+| 5/10/2026 | N | Fr. Gerald |
+
+## 6. We Ask For Your Prayer
+When translating the prayer list, list the names in the standard format: `[Korean Name] [Baptismal Name]`, separated by commas.
+End with: `Contact the office if there's someone in need of prayer`
 **Example:** 윤정의 알퐁소, 박길순 수산나, 이순옥 데레사
 
 ---
+*Last updated: 2026-05-03 (from user's final PDF review)*
 *This style guide ensures the translated output generated by the Antigravity Agent can be directly copy-pasted into the Google Doc template without breaking the established community standards.*
