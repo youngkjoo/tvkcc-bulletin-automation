@@ -48,13 +48,13 @@ Translate the extracted sections from Korean to English.
 - Maintain Korean characters for names followed by baptismal names.
 
 ### 6. Output Generation — Markdown Draft
-Create a new file named `~/Vibe/TVKCC Jubo/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. 
+Create a new file named `weekly_translation_draft_[YYYY-MM-DD].md` (in the project root, using the upcoming Sunday's date) with the final translated text. 
 Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, Announcements, Offertory).
 
 ### 7. Review & Refine (Human-in-the-loop)
 **This is the crucial step for quality control.**
 1.  **Open for Review**: Use the `run_command` tool to open the Korean PDF and the new Markdown draft side-by-side in a new Chrome window:
-    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft_[YYYY-MM-DD].md`
+    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] weekly_translation_draft_[YYYY-MM-DD].md`
 2.  **Stop and ask the user to review the Markdown draft.**
 3.  **Make Edits Easy**: The user can either:
     -   Edit the Markdown file directly and ask you to "Regenerate HTML from the updated Markdown."
@@ -62,10 +62,10 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 4.  **Approval**: Only proceed to HTML generation once the user is satisfied with the content.
 
 ### 8. Output Generation — HTML Bulletin Page
-Using the **approved** translated content, generate a styled HTML bulletin page at `~/Vibe/TVKCC Jubo/bulletins/[YYYY-MM-DD].html`.
-Use `~/Vibe/TVKCC Jubo/bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with the approved data. Specifically:
+Using the **approved** translated content, generate a styled HTML bulletin page at `bulletins/[YYYY-MM-DD].html`.
+Use `bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with the approved data. Specifically:
 
-Use `~/Vibe/TVKCC Jubo/bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with this week's data. Specifically:
+Use `bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with this week's data. Specifically:
 
 1. **Banner & Header** — Update the liturgy title, date, and issue number in the title bar. Update the personnel names/numbers in the `<div class="header-personnel">` block if they have changed.
 2. **Church Info Block** — This is static (address, phone, etc.) — keep as-is.
@@ -81,24 +81,23 @@ Use `~/Vibe/TVKCC Jubo/bulletins/2026-05-03.html` as the **reference template**.
 12. **Navigation links** — Add `← Previous Week` and `Next Week →` links in the footer pointing to the adjacent bulletin pages. Only show links for weeks that exist.
 13. **Korean Bulletin Link** — Add a link to the original Korean PDF in the `<div class="korean-link-bar">` section.
 
-After generating the HTML file, **update the index page** at `~/Vibe/TVKCC Jubo/index.html`:
+After generating the HTML file, **update the index page** at `./index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
 
-### 8. Publish
+### 9. Publish
 Commit and push the new files to GitHub:
 ```bash
-cd ~/Vibe/TVKCC\ Jubo
 git add bulletins/[YYYY-MM-DD].html index.html weekly_translation_draft_[YYYY-MM-DD].md
 git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
 
-### 11. Open in Browser
+### 10. Open in Browser
 After saving the file, use the `run_command` tool to automatically open the latest Korean PDF and the new HTML bulletin page on the user's Mac for final visual verification.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] ~/Vibe/TVKCC\ Jubo/bulletins/[YYYY-MM-DD].html`
+`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] bulletins/[YYYY-MM-DD].html`
 
-### 12. Continuous Learning — Style & Catalog Update
+### 11. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
 1.  **Scan for New Patterns**: Check if any new announcement types were created. If they are likely to recur, add them to `bulletin_announcement_catalog.md`.
 2.  **Style Guide Sync**: If the user made manual edits to the wording or formatting (e.g., "Use * instead of ●"), update `bulletin_style_guide.md` immediately to reflect these preferences for next week.

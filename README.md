@@ -31,13 +31,14 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 ```text
 ├── index.html                  # Main archive/landing page (2026 Bulletins)
 ├── style.css                   # Shared design system (typography, colors, layout)
-│   ├── tvkcc_logo.png              # Official church logo used in headers
-├── bulletins/                  # Directory containing weekly HTML pages (YYYY-MM-DD.html)
-├── assets/                     # Shared media (QR codes, icons)
-├── tvkcc_bulletin.md           # Master workflow instructions for the AI assistant
-├── bulletin_style_guide.md     # Strict rules for translation and formatting
-├── bulletin_announcement_catalog.md # Reusable templates for recurring events
-└── past_bulletins/             # Archive of extracted Korean source texts
+├── README.md                   # Project documentation (PRD)
+├── bulletins/                  # Directory containing weekly HTML pages
+├── assets/                     # Shared media (Logo, QR codes, icons)
+│   └── tvkcc_logo.png          # Official church logo
+├── tvkcc_bulletin.md           # Master workflow instructions
+├── bulletin_style_guide.md     # Strict rules for translation
+├── bulletin_announcement_catalog.md # Reusable templates
+└── past_bulletins/             # Archive of Korean source texts
 ```
 
 ---
