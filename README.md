@@ -79,13 +79,7 @@ The assistant will:
 
 ---
 
-## 📈 Future Enhancements
-- [ ] **Email/SMS Automation**: Notify parishioners automatically when a new bulletin is published.
-- [ ] **Search Functionality**: Add a search bar to the archive index to find specific announcements by keyword.
-- [ ] **Multilingual Support**: Explore automated Spanish translation for shared community events.
-- [ ] **Image Integration**: Automatically extract and embed photos from the Korean bulletin posts.
 
----
 
 ## ⚖️ Maintenance Notes
 - **Logo/Personnel**: If church leadership changes, update the reference template in `bulletins/2026-05-03.html`.
