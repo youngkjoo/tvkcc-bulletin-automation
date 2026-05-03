@@ -14,7 +14,7 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 
 ### 2. Automated Publishing Workflow
 - **AI-Powered Extraction**: Automatically scrapes PDF links from `tvkcc.org`, extracts text, and parses complex sections (Mass schedules, leadership, offerings, etc.).
-- **Smart Translation**: Utilizes a custom `bulletin_announcement_catalog.md` to ensure recurring announcements (e.g., Mother's Day, Holy Hour) maintain consistent, approved phrasing.
+- **Smart Translation**: Maintains consistency using `bulletin_style_guide.md` for strict formatting rules and `bulletin_announcement_catalog.md` for recurring announcement templates (e.g., Mother's Day, Holy Hour).
 - **Automated Archive**: Generates weekly HTML files and updates the `index.html` archive list automatically.
 
 ### 3. Integrated Parish Features
