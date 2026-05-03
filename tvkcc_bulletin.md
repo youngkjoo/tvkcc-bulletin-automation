@@ -53,11 +53,13 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 
 ### 7. Review & Refine (Human-in-the-loop)
 **This is the crucial step for quality control.**
-1.  **Stop and ask the user to review the Markdown draft.**
-2.  **Make Edits Easy**: The user can either:
+1.  **Open for Review**: Use the `run_command` tool to open the Korean PDF and the new Markdown draft side-by-side in a new Chrome window:
+    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] ~/Vibe/TVKCC\ Jubo/weekly_translation_draft_[YYYY-MM-DD].md`
+2.  **Stop and ask the user to review the Markdown draft.**
+3.  **Make Edits Easy**: The user can either:
     -   Edit the Markdown file directly and ask you to "Regenerate HTML from the updated Markdown."
     -   Provide feedback in the chat (e.g., "Change the menu items in the Mother's Day announcement") and you will update both the Markdown and the HTML.
-3.  **Approval**: Only proceed to HTML generation once the user is satisfied with the content.
+4.  **Approval**: Only proceed to HTML generation once the user is satisfied with the content.
 
 ### 8. Output Generation — HTML Bulletin Page
 Using the **approved** translated content, generate a styled HTML bulletin page at `~/Vibe/TVKCC Jubo/bulletins/[YYYY-MM-DD].html`.
