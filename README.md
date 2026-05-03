@@ -31,7 +31,7 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 ```text
 ├── index.html                  # Main archive/landing page (2026 Bulletins)
 ├── style.css                   # Shared design system (typography, colors, layout)
-├── tvkcc_logo.png              # Official church logo used in headers
+│   ├── tvkcc_logo.png              # Official church logo used in headers
 ├── bulletins/                  # Directory containing weekly HTML pages (YYYY-MM-DD.html)
 ├── assets/                     # Shared media (QR codes, icons)
 ├── tvkcc_bulletin.md           # Master workflow instructions for the AI assistant
