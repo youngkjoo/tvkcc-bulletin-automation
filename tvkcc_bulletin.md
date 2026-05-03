@@ -92,10 +92,12 @@ git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
 
-### 10. Open in Browser
-After saving the file, use the `run_command` tool to automatically open the latest Korean PDF and the new HTML bulletin page on the user's Mac for final visual verification.
+### 10. Open in Browser & Final Verification
+After saving the file and pushing to GitHub, use the `run_command` tool to open the latest Korean PDF, the local HTML page, and the **live GitHub Pages URL** for final verification.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to the latest Korean PDF] bulletins/[YYYY-MM-DD].html`
+`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] bulletins/[YYYY-MM-DD].html https://youngkjoo.github.io/tvkcc-bulletin-automation/`
+
+**Note**: GitHub Pages may take 1-2 minutes to reflect the new push. Verify that the new bulletin appears at the top of the "Latest" section on the live site.
 
 ### 11. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
