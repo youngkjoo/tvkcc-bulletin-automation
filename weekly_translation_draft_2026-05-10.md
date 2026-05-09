@@ -7,7 +7,7 @@
 * **Weekday Mass (평일 미사)**: Tue/Thu 9:30 AM
 * **Confession (고해성사)**: Before weekday & Sunday masses 9 AM - 9:25 AM
 * **Holy Hour (성시간)**: Monthly, after 1st Thursday mass
-* **Baptism (유아세례)**: Contact the church office
+* **Infant Baptism (유아세례)**: Contact the church office
 
 ## 2. Sunday School & Priest Schedule (주일학교 및 미사 집전 일정)
 | Date | Sun School | Priest |

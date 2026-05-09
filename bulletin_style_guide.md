@@ -3,7 +3,8 @@
 Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style guide establishes the strict formatting rules for the English version of the TVKCC Weekly Announcements.
 
 ## 1. General Formatting & Typography
-- **Religious Terms:** Use **Church** instead of Cathedral when referring to the local parish building. Use **Church vestibule** for locations.
+- **Religious Terms:** Use **Church** instead of Cathedral when referring to the local parish building. Use **Church vestibule** for locations. Use **Infant Baptism** instead of Baptism.
+- **Personnel:** Use **Basic Christian Faith Community Lead** instead of Chief District Leader.
 - **Bible Groups:** Format small groups as **Luke #8** instead of Luca 8.
 - **Dates:** Always format dates as `M/D (Day)` (e.g., `4/26 (Sun)` or `5/3 (Sun)`). Use **Pre-order period** instead of Reservation for sales events.
 - **Bullet Points:** Use standard markdown asterisks (`*`) for all bullets. Do NOT use Unicode characters like `●` or `◦`.
