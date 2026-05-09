@@ -5,8 +5,8 @@
 * **Sunday English Mass (주일 영어 미사)**: 11:00 AM
 * **Sunday School (주일학교)**: Tue/Thu 9:30 AM (Note: Check PDF for exact times if changed)
 * **Weekday Mass (평일 미사)**: Tue/Thu 9:30 AM
-* **Confession (고해성사)**: Sun 9:00 - 9:25 AM / Before Weekday Mass
-* **Holy Hour (성시간)**: 1st Thursday after Mass
+* **Confession (고해성사)**: Before weekday & Sunday masses 9 AM - 9:25 AM
+* **Holy Hour (성시간)**: Monthly, after 1st Thursday mass
 * **Baptism (유아세례)**: Contact the church office
 
 ## 2. Sunday School & Priest Schedule (주일학교 및 미사 집전 일정)

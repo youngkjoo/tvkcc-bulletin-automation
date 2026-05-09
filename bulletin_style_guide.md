@@ -68,6 +68,13 @@ Format as a simple table with three columns: **Date**, **Sunday School (Y/N)**, 
 | 5/3/2026 | N | Fr. Jim |
 | 5/10/2026 | N | Fr. Gerald |
 
+**Mass & Devotion Standard Labels:**
+- **Confession**: Before weekday & Sunday masses 9 AM - 9:25 AM
+- **Legion of Mary**: Before & after weekday and Sunday masses
+- **Holy Hour**: Monthly, after 1st Thursday mass
+- **Ultreya**: 3rd Sunday after Mass
+- **Secular Franciscan**: 2nd Sunday 1:00 PM
+
 ## 6. We Ask For Your Prayer
 When translating the prayer list, list the names in the standard format: `[Korean Name] [Baptismal Name]`, separated by commas.
 End with: `Contact the office if there's someone in need of prayer`
