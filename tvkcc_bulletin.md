@@ -54,7 +54,7 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 ### 7. Review & Refine (Human-in-the-loop)
 **This is the crucial step for quality control.**
 1.  **Open for Review**: Use the `run_command` tool to open the Korean PDF and the new Markdown draft side-by-side in a new Chrome window:
-    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] weekly_translation_draft_[YYYY-MM-DD].md`
+    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/weekly_translation_draft_[YYYY-MM-DD].md`
 2.  **Stop and ask the user to review the Markdown draft.**
 3.  **Make Edits Easy**: The user can either:
     -   Edit the Markdown file directly and ask you to "Regenerate HTML from the updated Markdown."
@@ -95,7 +95,7 @@ git push
 ### 10. Open in Browser & Final Verification
 After saving the file and pushing to GitHub, use the `run_command` tool to open the latest Korean PDF, the local HTML page, and the **live GitHub Pages URL** for final verification.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] bulletins/[YYYY-MM-DD].html https://youngkjoo.github.io/tvkcc-bulletin-automation/`
+`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html https://youngkjoo.github.io/tvkcc-bulletin-automation/`
 
 **Note**: GitHub Pages may take 1-2 minutes to reflect the new push. Verify that the new bulletin appears at the top of the "Latest" section on the live site.
 
