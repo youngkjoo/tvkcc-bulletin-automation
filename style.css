@@ -156,7 +156,6 @@ body {
   text-align: center;
 }
 .mass-table td:first-of-type {
-  font-weight: 700;
   background: #f9f9f9;
   text-align: center;
   white-space: nowrap;
