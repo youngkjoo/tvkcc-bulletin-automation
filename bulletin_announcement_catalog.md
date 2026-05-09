@@ -192,8 +192,8 @@ This catalog serves as the master database for all announcements that have appea
 ### 20. Funeral Mass and Entombment Ceremony
 **Template:**
 **Funeral Mass and Entombment Ceremony**
-* Deceased: [Korean Name] [Baptismal Name] (Age [Age], [Small Group], [relationship details])
-* Funeral Mass: [Date] ([Day]), [Time], [Location]
+* Deceased: [Korean Name] [Baptismal Name] (Age [Age], Luke #[Number], [relationship details])
+* Funeral Mass: [Date] ([Day]), [Time], Church
 * Entombment Ceremony: [Date] ([Day]), [Time], [Cemetery Name]
 * Please pray for the deceased and the bereaved family.
 
