@@ -11,10 +11,10 @@
 When the user triggers this workflow, execute the following steps in order:
 
 ### 1. Retrieve the Latest Bulletin
-- Navigate to `https://www.tvkcc.org/weeklybulletins/`.
-- Find the link to the most recent weekly bulletin (usually the first post).
-- Open the post and extract the `.pdf` link for the bulletin.
-- Download or read the contents of the PDF.
+- Use the `read_url_content` tool on `https://www.tvkcc.org/weeklybulletins/` to invisibly read the webpage (do NOT use the visual browser subagent).
+- Parse the output to find the link to the most recent weekly bulletin post.
+- Use `read_url_content` on that post to extract the `.pdf` link.
+- Use `curl` via `run_command` to download the PDF locally.
 
 ### 2. Retrieve Sunday Liturgy Title
 - Determine the date of the upcoming Sunday.
@@ -28,9 +28,9 @@ When the user triggers this workflow, execute the following steps in order:
 The Korean bulletin contains data across multiple pages. Extract ALL of the following:
 
 **From Page 1:**
-- **Mass & Sunday School Schedule (미사/주일학교)** — Korean Mass, English Mass, Sunday School, Weekday Mass, Confession, Holy Hour times
-- **Priest & Parish Leadership** — Pastor, Pastoral Council President, Chief District Leader, Funeral Ministry Head with names and phone numbers
-- **Sunday School & Priest Schedule Table** — Date, Sunday School (Y/N), Priest name for each upcoming week
+- **Mass & Devotions Schedule**: *Assume nothing has changed.* This table rarely changes. Do NOT extract this from the PDF; use the existing standard schedule from the style guide or previous bulletins.
+- **Priest & Parish Leadership** — Pastor, Pastoral Council President, Basic Christian Faith Community Lead, Bereavement Society President.
+- **Sunday School & Priest Schedule Table** — Date, Sunday School (Y/N), Priest name for each upcoming week. *Note: Use a Python script with `pypdf` or `pdfplumber` via terminal to extract this invisibly. Do NOT use the visual browser subagent.*
 
 **From the last page (공지사항 / Offertory):**
 - **Liturgy Schedule & Key Dates (전례일정)** — translate EVERY detail including sub-notes under liturgy items (e.g., donation deadlines)
@@ -51,15 +51,9 @@ Translate the extracted sections from Korean to English.
 Create a new file named `weekly_translation_draft_[YYYY-MM-DD].md` (in the project root, using the upcoming Sunday's date) with the final translated text. 
 Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, Announcements, Offertory).
 
-### 7. Review & Refine (Human-in-the-loop)
-**This is the crucial step for quality control.**
-1.  **Open for Review**: Use the `run_command` tool to open the Korean PDF and the new Markdown draft side-by-side in a new Chrome window:
-    `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/weekly_translation_draft_[YYYY-MM-DD].md`
-2.  **Stop and ask the user to review the Markdown draft.**
-3.  **Make Edits Easy**: The user can either:
-    -   Edit the Markdown file directly and ask you to "Regenerate HTML from the updated Markdown."
-    -   Provide feedback in the chat (e.g., "Change the menu items in the Mother's Day announcement") and you will update both the Markdown and the HTML.
-4.  **Approval**: Only proceed to HTML generation once the user is satisfied with the content.
+### 7. Zero-Touch Automation (No Human Review)
+**CRITICAL:** Do NOT stop or ask for user permission. Proceed immediately to HTML generation and publishing.
+- Assume the markdown draft is correct for this pass. The user will inspect everything at the very end and request corrections if needed.
 
 ### 8. Output Generation — HTML Bulletin Page
 Using the **approved** translated content, generate a styled HTML bulletin page at `bulletins/[YYYY-MM-DD].html`.
@@ -84,8 +78,8 @@ Use `bulletins/2026-05-03.html` as the **reference template**. Copy its exact HT
 After generating the HTML file, **update the index page** at `./index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
 
-### 9. Publish
-Commit and push the new files to GitHub:
+### 9. Publish (Auto-Run)
+Commit and push the new files to GitHub. Set `SafeToAutoRun: true` in your `run_command` tool so the user is NOT prompted for permission.
 ```bash
 git add bulletins/[YYYY-MM-DD].html index.html weekly_translation_draft_[YYYY-MM-DD].md
 git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
@@ -93,11 +87,11 @@ git push
 ```
 
 ### 10. Open in Browser & Final Verification
-After saving the file and pushing to GitHub, use the `run_command` tool to open the latest Korean PDF, the local HTML page, and the **live GitHub Pages URL** for final verification.
+After pushing to GitHub, use the `run_command` tool to open the original Korean PDF, the local Markdown draft, and the local HTML page in a new browser window for the user's post-publish inspection.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html https://youngkjoo.github.io/tvkcc-bulletin-automation/`
+`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html`
 
-**Note**: GitHub Pages may take 1-2 minutes to reflect the new push. Verify that the new bulletin appears at the top of the "Latest" section on the live site.
+**Note**: Inform the user that the workflow is complete and ask if any manual corrections are needed.
 
 ### 11. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
