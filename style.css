@@ -187,7 +187,7 @@ body {
   text-indent: -1rem;
 }
 .liturgy-list li::before {
-  content: '○ ';
+  content: '◦ ';
   color: var(--text);
 }
 .liturgy-list .sub-note {
@@ -238,7 +238,7 @@ body {
   text-indent: -0.6rem;
 }
 .announcement h3::before {
-  content: '● ';
+  content: '• ';
 }
 .announcement ul {
   list-style: none;
@@ -251,7 +251,7 @@ body {
   text-indent: -0.8rem;
 }
 .announcement li::before {
-  content: '○ ';
+  content: '◦ ';
   color: var(--text-light);
 }
 .announcement li.no-bullet::before { content: ''; }
