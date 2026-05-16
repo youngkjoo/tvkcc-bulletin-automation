@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVKCC Weekly Announcements - {{ DATE_LONG }}</title>
+  <meta name="description" content="English weekly announcements for St. Paul Chong Korean Catholic Community in Tri-Valley - {{ LITURGY_TITLE }}">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Print Bar -->
+  <div class="print-bar">
+    <button class="print-btn" onclick="window.print()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+      Print / Save as PDF
+    </button>
+  </div>
+
+  <!-- Header -->
+  <div class="header-block">
+    <img src="../assets/tvkcc_logo.png" alt="St. Paul Chong Korean Catholic Community" class="header-logo">
+    <div class="header-personnel">
+      <div><strong>Pastor:</strong> 오대석 바오로 신부 (925) 537-2909</div>
+      <div><strong>Pastoral Council Pres.:</strong> 이주하 요한사도 (626) 664-4508</div>
+      <div><strong>Basic Christian Faith Community Lead:</strong> 이성태 세례자요한 (925) 667-0966</div>
+      <div><strong>Bereavement Society Pres.:</strong> 김형근 어거스틴 (925) 918-3979</div>
+    </div>
+  </div>
+
+  <!-- Title Bar -->
+  <div class="title-bar">
+    <span class="liturgy-title">{{ LITURGY_TITLE }}</span>
+    <span class="issue-date">{{ DATE_LONG }} / No. {{ ISSUE_NUMBER }}</span>
+  </div>
+
+  <!-- Church Info -->
+  <div class="church-info">
+    <div>
+      <strong>Church:</strong> St. Elizabeth Ann Seton Church<br>
+      4001 Stoneridge Dr. Pleasanton, CA 94588<br>
+      <strong>Office Hours:</strong> Tue · Thu · Fri · Sun 9AM - 1PM<br>
+      <strong>E-mail:</strong> office@tvkcc.org / <strong>Web:</strong> www.tvkcc.org
+    </div>
+    <div class="right">
+      <strong>Office:</strong> St. Paul Chong Korean Catholic Community<br>
+      c/o St. Elizabeth Ann Seton Church<br>
+      4001 Stoneridge Dr. Pleasanton, CA 94588<br>
+      <strong>TEL</strong> 925-871-9746
+    </div>
+  </div>
+
+  <div class="korean-link-bar">
+    <a href="{{ PDF_LINK }}" target="_blank">
+      🇰🇷 View Original Korean Bulletin (PDF)
+    </a>
+  </div>
+
+  <div class="content">
+
+    <!-- Mass Schedule -->
+    <table class="mass-table">
+      <tr>
+        <th rowspan="3">Mass</th>
+        <td><strong>Korean Mass</strong></td><td style="text-align: center;">Sunday 9:30 AM</td>
+        <th rowspan="4">Devotions / Other</th>
+        <td><strong>Legion of Mary:</strong><br>Before & after weekday and Sunday masses</td>
+      </tr>
+      <tr>
+        <td><strong>English Mass</strong></td><td style="text-align: center;">Sunday 11:00 AM</td>
+        <td><strong>Ultreya:</strong><br>3rd Sunday after Mass</td>
+      </tr>
+      <tr>
+        <td><strong>Weekday Mass</strong></td><td style="text-align: center;">Tue · Thu · Fri 9:30 AM</td>
+        <td><strong>Secular Franciscan:</strong><br>2nd Sunday 1:00 PM</td>
+      </tr>
+      <tr>
+        <th>Confession</th>
+        <td colspan="2" style="text-align: center;">Before weekday & Sunday masses<br>9 AM - 9:25 AM</td>
+        <td><strong>Holy Hour:</strong><br>Monthly, after 1st Thursday mass</td>
+      </tr>
+      <tr>
+        <th>Infant Baptism</th>
+        <td colspan="2" style="text-align: center;">Contact the church office</td>
+        <th>Sunday School</th>
+        <td style="text-align: center;">Sunday 9:30 – 10:30 AM</td>
+      </tr>
+    </table>
+
+    <!-- OPTIONAL: Sunday School & Priest Schedule + Prayer Box -->
+    <!-- INSTRUCTION TO AGENT: Only include this <div class="bottom-row"> block if the schedule or prayer list exists in the Markdown draft. Otherwise, delete this entire block. -->
+    <div class="bottom-row" style="margin-bottom: 2rem;">
+      <!-- OPTIONAL: Schedule Table -->
+      <div>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Sun School</th>
+              <th>Priest</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ SCHEDULE_TABLE_ROWS_IF_APPLICABLE }}
+          </tbody>
+        </table>
+      </div>
+      <!-- OPTIONAL: Prayer Box -->
+      <div class="prayer-box" style="margin-top: 0;">
+        <h3>Please pray for (기도해 주십시오)</h3>
+        <p class="names">{{ PRAYER_LIST_NAMES_IF_APPLICABLE }}</p>
+        <p class="note">Contact the office if there's someone in need of prayer.</p>
+      </div>
+    </div>
+
+    <!-- Announcements Section -->
+    <div class="section-title"><span class="icon">📋</span> Announcements</div>
+
+    <!-- Liturgy Schedule -->
+    <div class="section-title" style="font-size:0.88rem; border-bottom-width:1px;">Liturgy &amp; Key Dates</div>
+    <ul class="liturgy-list">
+      {{ LITURGY_AND_KEY_DATES }}
+    </ul>
+
+    <!-- OPTIONAL: Community Events Table -->
+    <!-- INSTRUCTION TO AGENT: Only include if there is a distinct Community Events table in the markdown. Otherwise delete. -->
+    <div class="section-title" style="font-size:0.88rem; border-bottom-width:1px; margin-top:1rem;">Community Events</div>
+    <table class="events-table">
+      <thead>
+        <tr><th>Event</th><th>Date/Time</th><th>Location</th></tr>
+      </thead>
+      <tbody>
+        {{ COMMUNITY_EVENTS_TABLE_ROWS }}
+      </tbody>
+    </table>
+
+    <!-- Announcements Grid -->
+    <div class="announcements-grid">
+      <div>
+        {{ ANNOUNCEMENTS_COLUMN_1 }}
+      </div>
+      <div>
+        {{ ANNOUNCEMENTS_COLUMN_2 }}
+      </div>
+    </div><!-- end announcements-grid -->
+
+    <!-- Offertory Section -->
+    <div class="section-title"><span class="icon">🙏</span> Offertory and Donations</div>
+
+    <table class="offertory-table">
+      <thead>
+        <tr>
+          <th colspan="2">Mass Offertory</th>
+          <th rowspan="2">Annual<br>Pledge</th>
+          <th rowspan="2">Vocation<br>Promotion</th>
+          <th rowspan="2">Bishop's<br>Appeal</th>
+          <th rowspan="2">Total</th>
+        </tr>
+        <tr><th>Korean</th><th>English</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>{{ OFFERTORY_KOREAN }}</td><td>{{ OFFERTORY_ENGLISH }}</td><td>{{ OFFERTORY_ANNUAL }}</td><td>{{ OFFERTORY_VOCATION }}</td><td>{{ OFFERTORY_BISHOP }}</td><td><strong>{{ OFFERTORY_TOTAL }}</strong></td></tr>
+      </tbody>
+    </table>
+    <p class="offertory-note">(Please make checks payable to Tri-Valley Korean Catholic Church) The inquiry of the annual pledge is everyone's responsibility.</p>
+
+    <ul class="donor-list">
+      {{ DONOR_LIST_ITEMS }}
+    </ul>
+
+    <!-- Pope's Prayer Intention + Online Donate QR -->
+    <div class="info-row">
+      <div class="pope-box">
+        <div class="pope-header">{{ POPE_MONTH }} — Pope's Monthly Prayer Intention</div>
+        <div class="pope-body">
+          <p class="pope-title">{{ POPE_TITLE }}</p>
+          <p class="pope-text">{{ POPE_TEXT }}</p>
+        </div>
+      </div>
+      <div class="qr-box">
+        <img src="../assets/qr_donate.png" alt="Scan to donate online" class="qr-img">
+        <p class="qr-label">Scan QR Code to<br><strong>Online Donate</strong></p>
+        <a href="https://www.tvkcc.org/onlinegiving/" target="_blank" class="qr-link">tvkcc.org/onlinegiving</a>
+      </div>
+    </div>
+
+  </div><!-- end content -->
+
+  <div class="footer">
+    <div class="nav-links">
+      <span class="nav-prev"><a href="{{ PREV_BULLETIN_LINK }}">{{ PREV_BULLETIN_DATE }}</a></span>
+      <span class="nav-home"><a href="../index.html">All Bulletins</a></span>
+      <span class="nav-next">{{ NEXT_BULLETIN_HTML_IF_APPLICABLE }}</span>
+    </div>
+    <p>St. Paul Chong Korean Catholic Community in Tri-Valley · 4001 Stoneridge Dr. Pleasanton, CA 94588 · <a href="https://www.tvkcc.org">www.tvkcc.org</a> · (925) 871-9746</p>
+  </div>
+
+</div><!-- end page -->
+
+</body>
+</html>

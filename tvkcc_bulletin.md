@@ -58,23 +58,21 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 
 ### 8. Output Generation — HTML Bulletin Page
 Using the **approved** translated content, generate a styled HTML bulletin page at `bulletins/[YYYY-MM-DD].html`.
-Use `bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with the approved data. Specifically:
+Use `master_template.html` (located in the root directory) as the **strict reference template**. Copy its exact HTML structure, CSS class names, and placeholder locations, and replace the placeholders with this week's data. Specifically:
 
-Use `bulletins/2026-05-03.html` as the **reference template**. Copy its exact HTML structure and CSS class names and replace the content with this week's data. Specifically:
-
-1. **Banner & Header** — Update the liturgy title, date, and issue number in the title bar. Update the personnel names/numbers in the `<div class="header-personnel">` block if they have changed.
+1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed.
 2. **Church Info Block** — This is static (address, phone, etc.) — keep as-is.
 3. **Mass Schedule Table** — Update if any changes are mentioned in the bulletin (usually static). Ensure Devotions are formatted correctly.
 4. **Leadership** — (Now part of Header)
 5. **Liturgy & Key Dates** — Replace with this week's `<ul class="liturgy-list">` items. Include sub-notes using `<span class="sub-note">`.
 6. **Community Events Table** — Replace table rows with this week's meetings.
 7. **Announcements Grid** — Replace with this week's announcements in a two-column `<div class="announcements-grid">`. Use `<div class="announcement">` blocks with `<h3>` title and `<ul>` list. Balance left and right columns roughly equally.
-8. **Offertory Table** — Update the amounts and donor lists.
-9. **Pope's Prayer Intention** — Update the `<div class="pope-box">` with the current month's intention (title + prayer text).
+8. **Offertory Table** — Replace the `{{ OFFERTORY_* }}` and `{{ DONOR_LIST_ITEMS }}` placeholders.
+9. **Pope's Prayer Intention** — Replace the `{{ POPE_* }}` placeholders.
 10. **QR Code Block** — Keep as-is (static link to tvkcc.org/onlinegiving/).
-11. **Schedule + Prayer Box** — Update the Sunday School/Priest schedule table and the "Please pray for" names list (located below the Mass table).
-12. **Navigation links** — Add `← Previous Week` and `Next Week →` links in the footer pointing to the adjacent bulletin pages. Only show links for weeks that exist.
-13. **Korean Bulletin Link** — Add a link to the original Korean PDF in the `<div class="korean-link-bar">` section.
+11. **OPTIONAL BLOCKS** — Read the HTML comments in `master_template.html` carefully. If a block is marked as OPTIONAL (like the Priest Schedule or Prayer Box), ONLY include it if the corresponding data exists in this week's Markdown draft. If the data does not exist, you MUST delete the entire optional HTML block.
+12. **Navigation links** — Replace `{{ PREV_BULLETIN_* }}` and `{{ NEXT_BULLETIN_* }}` placeholders in the footer pointing to the adjacent bulletin pages. If there is no next bulletin, remove the `<a>` tag for next.
+13. **Korean Bulletin Link** — Replace `{{ PDF_LINK }}` with the link to the original Korean PDF in the `<div class="korean-link-bar">` section.
 
 After generating the HTML file, **update the index page** at `./index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
