@@ -54,7 +54,7 @@ The financial data requires strict column adherence. List amounts in these exact
 
 After the table, add the note: `The inquiry of the annual pledge is everyone's responsibility.`
 
-Translate the lists of donors by grouping them under the English category names:
+Translate the lists of donors by grouping them under the English category names using standard markdown lists (which will translate to `<ul>` and `<li>` in HTML, specifically using `<ul class="donor-list">`):
 * 교무금 (Inquiry of Annual Pledge)
 * 성소후원 (Vocation Promotion)
 * Bishop's Appeal
