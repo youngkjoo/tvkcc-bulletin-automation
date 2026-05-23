@@ -81,6 +81,48 @@ body {
   font-size: 0.85rem;
 }
 
+/* Liturgical Colors Modifiers for Title Bar */
+.title-bar.liturgical-red {
+  background: #9e1c1c;
+  color: #fff;
+}
+.title-bar.liturgical-red .liturgy-title {
+  color: #ffd700;
+}
+
+.title-bar.liturgical-green {
+  background: #2d662b;
+  color: #fff;
+}
+.title-bar.liturgical-green .liturgy-title {
+  color: #ffd700;
+}
+
+.title-bar.liturgical-purple {
+  background: #572478;
+  color: #fff;
+}
+.title-bar.liturgical-purple .liturgy-title {
+  color: #ffd700;
+}
+
+.title-bar.liturgical-white {
+  background: #a89454;
+  color: #fff;
+}
+.title-bar.liturgical-white .liturgy-title {
+  color: #fff;
+}
+
+.title-bar.liturgical-rose {
+  background: #b55a82;
+  color: #fff;
+}
+.title-bar.liturgical-rose .liturgy-title {
+  color: #ffd6e7;
+}
+
+
 /* ── Church Info Block ── */
 .church-info {
   display: flex;

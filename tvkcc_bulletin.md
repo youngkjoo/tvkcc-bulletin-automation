@@ -60,7 +60,7 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 Using the **approved** translated content, generate a styled HTML bulletin page at `bulletins/[YYYY-MM-DD].html`.
 Use `master_template.html` (located in the root directory) as the **strict reference template**. Copy its exact HTML structure, CSS class names, and placeholder locations, and replace the placeholders with this week's data. Specifically:
 
-1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed.
+1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed. Also, identify the liturgical color of the week from the Korean PDF banner background (e.g. Red for Pentecost, Purple for Advent/Lent, Green for Ordinary Time, White for Easter/Feasts). Map it to the appropriate CSS class (`liturgical-red`, `liturgical-green`, `liturgical-purple`, `liturgical-white`, or `liturgical-rose`) and replace the `{{ LITURGICAL_COLOR_CLASS }}` placeholder in the title bar.
 2. **Church Info Block** — This is static (address, phone, etc.) — keep as-is.
 3. **Mass Schedule Table** — Update if any changes are mentioned in the bulletin (usually static). Ensure Devotions are formatted correctly.
 4. **Leadership** — (Now part of Header)
