@@ -83,7 +83,7 @@ End with: `Contact the office if there's someone in need of prayer`
 
 ## 7. Liturgical Colors
 The background color of the header title bar row (with the liturgical week name and date) must change based on the liturgical calendar to match the original Korean PDF:
-- **Red** (`.liturgical-red`): background `#9e1c1c`, gold title. Used for Pentecost Sunday, Palm Sunday, Good Friday, etc.
+- **Red** (`.liturgical-red`): background `#e60000`, white title. Used for Pentecost Sunday, Palm Sunday, Good Friday, etc.
 - **Green** (`.liturgical-green`): background `#2d662b`, gold title. Used for Ordinary Time.
 - **Purple** (`.liturgical-purple`): background `#572478`, gold title. Used for Advent and Lent.
 - **White/Gold** (`.liturgical-white`): background `#a89454`, white title. Used for Easter season, Christmas season, and specific solemnities/feasts.

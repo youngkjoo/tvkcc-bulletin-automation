@@ -83,11 +83,11 @@ body {
 
 /* Liturgical Colors Modifiers for Title Bar */
 .title-bar.liturgical-red {
-  background: #9e1c1c;
+  background: #e60000;
   color: #fff;
 }
 .title-bar.liturgical-red .liturgy-title {
-  color: #ffd700;
+  color: #fff;
 }
 
 .title-bar.liturgical-green {
