@@ -50,7 +50,7 @@ Translate the extracted sections from Korean to English.
 - Maintain Korean characters for names followed by baptismal names.
 
 ### 6. Output Generation — Markdown Draft
-Create a new file named `weekly_translation_draft_[YYYY-MM-DD].md` (in the project root, using the upcoming Sunday's date) with the final translated text. 
+Create a new file named `bulletins/drafts/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. 
 Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, Announcements, Offertory).
 
 ### 7. Zero-Touch Automation (No Human Review)
@@ -81,7 +81,7 @@ After generating the HTML file, **update the index page** at `./index.html`:
 ### 9. Publish (Auto-Run)
 Commit and push the new files to GitHub. Set `SafeToAutoRun: true` in your `run_command` tool so the user is NOT prompted for permission.
 ```bash
-git add bulletins/[YYYY-MM-DD].html index.html weekly_translation_draft_[YYYY-MM-DD].md
+git add bulletins/[YYYY-MM-DD].html index.html bulletins/drafts/weekly_translation_draft_[YYYY-MM-DD].md
 git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
@@ -89,7 +89,7 @@ git push
 ### 10. Open in Browser & Final Verification
 After pushing to GitHub, use the `run_command` tool to open the original Korean PDF, the local Markdown draft, and the local HTML page in a new browser window for the user's post-publish inspection.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html`
+`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/drafts/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html`
 
 **Cleanup**: After launching Google Chrome, run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
 
