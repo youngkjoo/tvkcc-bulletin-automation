@@ -1,3 +1,5 @@
 past_bulletins/
 *.pdf
 weekly_translation_draft_*.md
+temp_extraction/
+
