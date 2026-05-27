@@ -58,7 +58,7 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 - Assume the markdown draft is correct for this pass. The user will inspect everything at the very end and request corrections if needed.
 
 ### 8. Output Generation — HTML Bulletin Page
-Using the **approved** translated content, generate a styled HTML bulletin page at `bulletins/[YYYY-MM-DD].html`.
+Using the **approved** translated content, generate a styled HTML bulletin page at `docs/bulletins/[YYYY-MM-DD].html`.
 Use `master_template.html` (located in the root directory) as the **strict reference template**. Copy its exact HTML structure, CSS class names, and placeholder locations, and replace the placeholders with this week's data. Specifically:
 
 1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed. Also, identify the liturgical color of the week from the Korean PDF banner background (e.g. Red for Pentecost, Purple for Advent/Lent, Green for Ordinary Time, White for Easter/Feasts). Map it to the appropriate CSS class (`liturgical-red`, `liturgical-green`, `liturgical-purple`, `liturgical-white`, or `liturgical-rose`) and replace the `{{ LITURGICAL_COLOR_CLASS }}` placeholder in the title bar. Append a cache-buster query parameter to the stylesheet link in the `<head>` of the generated HTML (e.g. `href="../style.css?v=[YYYYMMDD]"` using this week's date) to force browsers to fetch the updated stylesheet immediately.
@@ -75,13 +75,13 @@ Use `master_template.html` (located in the root directory) as the **strict refer
 12. **Navigation links** — Replace `{{ PREV_BULLETIN_* }}` and `{{ NEXT_BULLETIN_* }}` placeholders in the footer pointing to the adjacent bulletin pages. If there is no next bulletin, remove the `<a>` tag for next.
 13. **Korean Bulletin Link** — Replace `{{ PDF_LINK }}` with the link to the original Korean PDF in the `<div class="korean-link-bar">` section.
 
-After generating the HTML file, **update the index page** at `./index.html`:
+After generating the HTML file, **update the index page** at `docs/index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
 
 ### 9. Publish (Auto-Run)
 Commit and push the new files to GitHub. Set `SafeToAutoRun: true` in your `run_command` tool so the user is NOT prompted for permission.
 ```bash
-git add bulletins/[YYYY-MM-DD].html index.html drafts/weekly_translation_draft_[YYYY-MM-DD].md
+git add docs/bulletins/[YYYY-MM-DD].html docs/index.html drafts/weekly_translation_draft_[YYYY-MM-DD].md
 git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
@@ -89,7 +89,7 @@ git push
 ### 10. Open in Browser & Final Verification
 After pushing to GitHub, use the `run_command` tool to open the original Korean PDF, the local Markdown draft, and the local HTML page in a new browser window for the user's post-publish inspection.
 Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/bulletins/[YYYY-MM-DD].html`
+`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/[YYYY-MM-DD].html`
 
 **Cleanup**: After launching Google Chrome, run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
 
