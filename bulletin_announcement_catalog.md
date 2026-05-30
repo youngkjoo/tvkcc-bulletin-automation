@@ -267,3 +267,62 @@ This catalog serves as the master database for all announcements that have appea
 * Menu: [Menu items]
 * Fee: [Fee info]
 * Contact: [Name] [Phone Number]
+
+---
+
+### 28. Parish Staff / Clergy Vacation or Leave
+**Template:**
+**[Staff Title, e.g., Office Manager] Vacation**
+* [Start Date] ([Day]) - [End Date] ([Day])
+
+---
+
+### 29. Event Feedback Survey
+**Template:**
+**[Event Name] Survey**
+* Thank you to everyone who participated in [Event Name]! Your valuable feedback will be of great help in preparing for more enjoyable and meaningful [Event Name] in the future. Please take a moment to participate in the survey.
+* **Online Survey:** [Survey Link]
+
+---
+
+### 30. Altar Servers / Graduate Blessing Party
+**Template:**
+**[Group/Patron Saint, e.g., St. Gabriel Altar Servers] Graduation Blessing Party**
+* Date/time: [Date] ([Day]) after Sunday Mass ([Time] AM/PM)
+* Location: [Location, e.g., In front of the church parking lot]
+
+---
+
+### 31. Sacrament of Confirmation & Faith Re-education Classes
+**Template:**
+**Sacrament of Confirmation, Confirmation Classes & Adult Education**
+* Adult parishioners who have not received the Sacrament of Confirmation are eligible. (Middle/high school students follow the Oakland Diocese confirmation program).
+* **Confirmation Ceremony:** [Date] ([Day]) during Mass
+* **Presider:** [Bishop Name] ([Diocese Name])
+* **Confirmation Classes:** [Dates] from [Start Time] to [End Time]
+* **Location:** [Location, e.g., Small Chapel and Rooms A/B]
+* **Application Deadline:** [Date] ([Day])
+* **How to apply:** [Instructions, e.g., Get the application form from the office desk and submit it, or download the form from the parish website, fill it out, and email it to the office.]
+* **Note:** Those who have already received Confirmation but wish to attend for faith re-education, please fill out the Google Form below: [Registration Link]
+
+---
+
+### 32. Community Service Donation Drive
+**Template:**
+**[Organization, e.g., TVCS] Annual [Gear/Items, e.g., Soccer Gear] Drive**
+* [Organization Name], in partnership with [Partner Name, e.g., CRECE], is collecting donations for [Program Name, e.g., "Better Together Soccer"], a [Description, e.g., free soccer program for low-income children].
+* Items needed: [List of items, e.g., New or gently used soccer and sports gear] or monetary donations (payable to: [Payee Name]).
+* Deadline: [Date] ([Day])
+* Collection location: [Location, e.g., Collection box in front of the small chapel]
+* Contact: [Name & Baptismal Name] [Phone Number]
+
+---
+
+### 33. RCIA (Rite of Christian Initiation of Adults) Registration
+**Template:**
+**[Year Range, e.g., 2026-2027] RCIA (Rite of Christian Initiation of Adults)**
+* **Initiation Ceremony (Baptism):** [Date] ([Day]) ([e.g., Easter Sunday])
+* **Class Start Date:** [Date] ([Day]), [Time] AM/PM
+* **Application Deadline:** [Date] ([Day])
+* We ask for your interest and cooperation in recruiting prospective catechumens.
+
