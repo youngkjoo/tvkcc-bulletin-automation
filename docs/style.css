@@ -324,7 +324,7 @@ body {
 
 /* ── Schedule Table ── */
 .schedule-table {
-  width: auto;
+  width: 100%;
   border-collapse: collapse;
   font-size: 0.82rem;
   margin-bottom: 1rem;
@@ -370,7 +370,7 @@ body {
 /* ── Bottom row (schedule + prayer side by side like Korean) ── */
 .bottom-row {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   align-items: start;
   margin-top: 1rem;
