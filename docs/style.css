@@ -107,11 +107,11 @@ body {
 }
 
 .title-bar.liturgical-white {
-  background: #a89454;
-  color: #fff;
+  background: #f4ddb4;
+  color: #000;
 }
 .title-bar.liturgical-white .liturgy-title {
-  color: #fff;
+  color: #000;
 }
 
 .title-bar.liturgical-rose {
