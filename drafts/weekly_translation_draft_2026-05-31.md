@@ -32,6 +32,9 @@
 
 ## 4. Community Events & Announcements (본당 소식 및 공지)
 
+### Office Manager Vacation
+* 6/9 (Tue) - 6/19 (Fri)
+
 ### TVKCC Youth Day Survey
 * Thank you to everyone who participated in TVKCC's first Youth Day! Your valuable feedback will be of great help in preparing for more enjoyable and meaningful Youth Days in the future. Please take a moment to participate in the survey.
 * Online Survey: https://tinyurl.com/2026YouthDaySurvey
@@ -75,9 +78,6 @@
 * Fee: $280 (after May 24, 2026)
 * Contact: unitasretreat@gmail.com
 * Note: The retreat budget is short by about $3,000. We ask for your donations. You can submit your donations at the church office.
-
-### Office Manager Vacation
-* 6/9 (Tue) - 6/19 (Fri)
 
 ### Contribute Your Stories to the Bulletin!
 * We would like to feature your precious stories in our parish bulletin. Any topic is welcome, such as touching stories you have experienced in your faith life, reflections you wish to share, or warm thoughts about our community. Your writing will be a great grace and comfort to us all.
