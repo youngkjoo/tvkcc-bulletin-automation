@@ -29,16 +29,19 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 ## 📂 Repository Structure
 
 ```text
-├── index.html                  # Main archive/landing page (2026 Bulletins)
-├── style.css                   # Shared design system (typography, colors, layout)
 ├── README.md                   # Project documentation (PRD)
-├── bulletins/                  # Directory containing weekly HTML pages
-├── assets/                     # Shared media (Logo, QR codes, icons)
-│   └── tvkcc_logo.png          # Official church logo
 ├── tvkcc_bulletin.md           # Master workflow instructions
 ├── bulletin_style_guide.md     # Strict rules for translation
 ├── bulletin_announcement_catalog.md # Reusable templates
-└── past_bulletins/             # Archive of Korean source texts
+├── drafts/                     # Weekly translation drafts (Markdown files)
+└── docs/                       # Web root folder served by GitHub Pages
+    ├── index.html              # Main archive/landing page (2026 Bulletins)
+    ├── style.css               # Shared design system (typography, colors, layout)
+    ├── bulletins/              # Directory containing weekly English HTML pages
+    └── assets/                 # Shared media (Logo, QR codes, icons)
+        ├── tvkcc_logo.png      # Official church logo
+        ├── qr_donate.png       # Online giving QR code
+        └── qr_confirmation.png # Sacrament of Confirmation registration QR code
 ```
 
 ---

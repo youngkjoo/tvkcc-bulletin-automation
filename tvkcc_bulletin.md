@@ -33,6 +33,7 @@ The Korean bulletin contains data across multiple pages. Extract ALL of the foll
 - **Mass & Devotions Schedule**: *Assume nothing has changed.* This table rarely changes. Do NOT extract this from the PDF; use the existing standard schedule from the style guide or previous bulletins.
 - **Priest & Parish Leadership** — Pastor, Pastoral Council President, Basic Christian Faith Community Lead, Bereavement Society President.
 - **Sunday School & Priest Schedule Table** — Date, Sunday School (Y/N), Priest name for each upcoming week. *Note: Use a Python script with `pypdf` or `pdfplumber` via terminal to extract this invisibly. Do NOT use the visual browser subagent.*
+- **Liturgical Row Background Color**: Programmatically extract the fill colors of the background rectangles on Page 1 of the PDF (typically Rect 2 or 3 in the vector drawing list of `pdfplumber`). For example, for White/Gold liturgical color, the RGB float values will be `(0.9569, 0.8667, 0.7059)`, which converts exactly to hex color `#f4ddb4`. For any other color weeks, extract the exact RGB color of these rects to match the exact background color in the Korean PDF, and map it to the corresponding `.liturgical-[color]` CSS rules.
 
 **From the last page (공지사항 / Offertory):**
 - **Liturgy Schedule & Key Dates (전례일정)** — translate EVERY detail including sub-notes under liturgy items (e.g., donation deadlines)
