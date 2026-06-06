@@ -30,7 +30,7 @@
 ---
 
 ## 4. Community Events (모임 안내)
-* **Love of Mary Curia Monthly Meeting**
+* **Mary Queen of Love Curia Monthly Meeting**
   * Date/time: 6/14 (Sun) 10:45 AM - 12:00 PM
   * Location: Room A
 * **Ultreya Monthly Meeting**
