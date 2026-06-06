@@ -94,7 +94,7 @@ Run this command:
 
 **Cleanup**: After launching Google Chrome, run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
 
-**Note**: Inform the user that the workflow is complete and ask if any manual corrections are needed.
+**Note**: Inform the user that the workflow is complete and provide the public sharing URL for the new HTML page (e.g. `https://youngkjoo.github.io/tvkcc-bulletin-automation/bulletins/[YYYY-MM-DD].html`). Ask if any manual corrections are needed.
 
 ### 11. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
