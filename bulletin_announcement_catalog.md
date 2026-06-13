@@ -326,3 +326,16 @@ This catalog serves as the master database for all announcements that have appea
 * **Application Deadline:** [Date] ([Day])
 * We ask for your interest and cooperation in recruiting prospective catechumens.
 
+---
+
+### 34. Northern California Charismatic Conference
+**Template:**
+**[Number, e.g., 30th] Northern California Charismatic Conference**
+* Theme: [Theme, e.g., "Behold, I make all things new."]
+* Date/time: [Date] (Sat) [Start Time] - [End Time]
+* Location: [Location, e.g., St. Michael Korean Catholic Church in San Francisco]
+* Speaker: [Speaker Name]
+* Fee: $[Amount] (lunch and dinner provided)
+* Contact: [Name & Baptismal Name] ([Group Name])
+
+
