@@ -49,6 +49,7 @@ Translate the extracted sections from Korean to English.
 - Use standard markdown bullets (`*`) for all bullet points. Do NOT use Unicode characters like `●` or `◦` or dashes (`-`) — use asterisks (`*`) as they paste most cleanly into Google Docs as proper bullet dots.
 - Use the standard keys: `Date/time:`, `Location:`, `Who:`, `Contact:`.
 - Maintain Korean characters for names followed by baptismal names.
+- In the prayer list, ensure that names do not break across lines in the HTML output by using `&nbsp;` instead of a regular space between the name and baptismal name (e.g., `윤정의&nbsp;알퐁소`).
 
 ### 6. Output Generation — Markdown Draft
 Create a new file named `drafts/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. 
@@ -62,7 +63,7 @@ Format the text into clean Markdown chunks (Header, Mass Schedule, Key Dates, An
 Using the **approved** translated content, generate a styled HTML bulletin page at `docs/bulletins/[YYYY-MM-DD].html`.
 Use `master_template.html` (located in the root directory) as the **strict reference template**. Copy its exact HTML structure, CSS class names, and placeholder locations, and replace the placeholders with this week's data. Specifically:
 
-1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed. Also, identify the liturgical color of the week from the Korean PDF banner background (e.g. Red for Pentecost, Purple for Advent/Lent, Green for Ordinary Time, White for Easter/Feasts). Map it to the appropriate CSS class (`liturgical-red`, `liturgical-green`, `liturgical-purple`, `liturgical-white`, or `liturgical-rose`) and replace the `{{ LITURGICAL_COLOR_CLASS }}` placeholder in the title bar. Append a cache-buster query parameter to the stylesheet link in the `<head>` of the generated HTML (e.g. `href="../style.css?v=[YYYYMMDD]"` using this week's date) to force browsers to fetch the updated stylesheet immediately.
+1. **Banner & Header** — Replace `{{ LITURGY_TITLE }}`, `{{ DATE_LONG }}`, and `{{ ISSUE_NUMBER }}` in the title bar. Update the personnel names/numbers if they have changed. Also, identify the liturgical color of the week from the Korean PDF banner background (e.g. Red for Pentecost, Purple for Advent/Lent, Green for Ordinary Time, White for Easter/Feasts). Map it to the appropriate CSS class (`liturgical-red`, `liturgical-green`, `liturgical-purple`, `liturgical-white`, or `liturgical-rose`) and replace the `{{ LITURGICAL_COLOR_CLASS }}` placeholder in the title bar. **CRITICAL:** Check both the background color of the row and the foreground color of the text (extracted from PDF page 1) to ensure they match the original Korean bulletin header exactly (adjust `style.css` colors or add style overrides if needed). Append a cache-buster query parameter to the stylesheet link in the `<head>` of the generated HTML (e.g. `href="../style.css?v=[YYYYMMDD]"` using this week's date) to force browsers to fetch the updated stylesheet immediately.
 2. **Church Info Block** — This is static (address, phone, etc.) — keep as-is.
 3. **Mass Schedule Table** — Update if any changes are mentioned in the bulletin (usually static). Ensure Devotions are formatted correctly.
 4. **Leadership** — (Now part of Header)
