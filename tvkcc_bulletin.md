@@ -49,7 +49,7 @@ Translate the extracted sections from Korean to English.
 - Use standard markdown bullets (`*`) for all bullet points. Do NOT use Unicode characters like `●` or `◦` or dashes (`-`) — use asterisks (`*`) as they paste most cleanly into Google Docs as proper bullet dots.
 - Use the standard keys: `Date/time:`, `Location:`, `Who:`, `Contact:`.
 - Maintain Korean characters for names followed by baptismal names.
-- In the prayer list, ensure that names do not break across lines in the HTML output by using `&nbsp;` instead of a regular space between the name and baptismal name (e.g., `윤정의&nbsp;알퐁소`).
+- In the prayer list, ensure that names do not break across lines in the HTML output by using `&nbsp;` instead of a regular space between the name and baptismal name, and wrapping each name in a `<span>` tag (e.g., `<span>윤정의&nbsp;알퐁소</span>`). Spans inside `.prayer-box .names` are styled with `display: inline-block; white-space: nowrap;` in `style.css` to guarantee responsive wrapping as a unit.
 
 ### 6. Output Generation — Markdown Draft
 Create a new file named `drafts/weekly_translation_draft_[YYYY-MM-DD].md` (using the upcoming Sunday's date) with the final translated text. 

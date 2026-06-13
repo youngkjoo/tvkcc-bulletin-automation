@@ -360,6 +360,10 @@ body {
   line-height: 1.8;
   font-weight: 500;
 }
+.prayer-box .names span {
+  display: inline-block;
+  white-space: nowrap;
+}
 .prayer-box .note {
   font-size: 0.78rem;
   color: var(--text-light);
