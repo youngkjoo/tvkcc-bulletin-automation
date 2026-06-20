@@ -1,24 +1,34 @@
-# Weekly Bulletin Automation Setup Complete!
+# Weekly Bulletin Translation Job Walkthrough (June 21, 2026)
 
-We have successfully established an automated workflow for your weekly English bulletin translation! 
+We have successfully executed the weekly bulletin translation and publishing job for **June 21, 2026**.
 
-By analyzing the past 12 months of your PDFs, we have built a custom system right here in your workspace that guarantees consistency, accuracy, and saves you hours of manual translation work.
+## Summary of Completed Work
 
-## What We Built
+1. **Retrieved the Latest Korean Bulletin**:
+   - Downloaded the original bulletin PDF locally from `https://www.tvkcc.org/wp-content/uploads/2026/06/06212026_747.pdf`.
 
-1. **`bulletin_style_guide.md`**: A comprehensive rulebook extracted from your past bulletins. It defines exactly how dates, bullets, names, event properties (Location, Contact), and Offertory numbers should be formatted. It acts as the "brain" to keep your English translations consistent every single week.
-2. **`tvkcc_bulletin.md`**: This is my executable instruction manual. It tells me exactly how to fetch the PDF from the church website, extract the right sections, translate them using the Style Guide, and present them back to you in perfectly organized chunks.
+2. **Extracted Liturgical Info & Colors**:
+   - Sunday Liturgical Title: **Twelfth Sunday in Ordinary Time**
+   - Liturgical Color Class: `liturgical-green` (Ordinary Time, based on background color extraction `#38761d` from Page 1).
+   - Injected a `<style>` block in the head of the generated HTML to precisely override the title bar background color to `#38761d` (to match the exact green color from the Korean PDF).
 
-## How to Use It (Every Saturday)
+3. **Extracted Sunday School & Priest Schedule via OCR**:
+   - Processed the Page 1 Priest Schedule image using macOS Vision OCR via a custom Swift script.
+   - Captured the schedule and corrected names:
+     - 6/21: Sunday School N, Priest: Fr. Jim
+     - 6/28: Sunday School N, Priest: Fr. Paul
+     - 7/05: Sunday School N, Priest: Fr. Jim
+     - 7/12: Sunday School N, Priest: Fr. Gerald
+   - Prayer list: `윤정의 알퐁소, 이순옥 데레사, 김정희 데레사, 정종락 필립보, 배정례 엘리사벳, 이데이빗 바오로` (each wrapped in `<span>` tags with `&nbsp;` to prevent line break splits).
 
-You no longer have to manually download, read, and translate the Korean PDF. Instead, your new workflow is:
+4. **Translated and Cataloged Announcements**:
+   - Translated 9 announcements following the style guide and catalog templates (including *Father's Day Event*, *Sacrament of Confirmation*, *Lifted HS Summer Camp*, *RCIA*, *Charismatic Conference*, etc.).
+   - Translated the new announcement about the **Weekday Evening Mass** (first Wednesday of the month at 7:30 PM).
+   - Translated the new announcement about the **Catholic Bible Study Senior Reading Group** (Bible study for seniors, contact (925) 487-6055).
 
-1. Duplicate and rename your Google Doc template as usual.
-2. Open a new conversation with me (Antigravity).
-3. Type: **`@tvkcc_bulletin.md Execute the weekly bulletin translation.`**
-4. I will do all the heavy lifting and hand you the beautifully formatted English text.
-5. You copy and paste the chunks into your Google Doc boxes.
-
-## Future Handoff
-
-If you ever need to hand this responsibility over to another volunteer, you just need to share this Antigravity workspace with them. They don't need to learn any complex formatting rules; they just trigger the workflow and paste the results!
+5. **Generated Output & Published**:
+   - Saved the Markdown draft to [weekly_translation_draft_2026-06-21.md](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_2026-06-21.md).
+   - Generated the styled HTML page at [2026-06-21.html](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/2026-06-21.html).
+   - Updated the navigation link on [2026-06-14.html](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/2026-06-14.html) to link forward to June 21.
+   - Updated the main archive page [index.html](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/index.html) (latest badge shifted to June 21).
+   - Cleaned up all temporary files inside `temp_extraction/`.
