@@ -9,6 +9,7 @@ Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style g
 - **Dates:** Always format dates as `M/D (Day)` (e.g., `4/26 (Sun)` or `5/3 (Sun)`). Use **Pre-order period** instead of Reservation for sales events.
 - **Bullet Points:** Use standard markdown asterisks (`*`) for all bullets. Do NOT use Unicode characters like `●` or `◦`.
 - **Header:** Every bulletin starts with the liturgy title and date on the same line, e.g., `Fifth Sunday of Easter  5/3/2026`
+- **Korean Priest Names:** For the English spelling of Korean priests' names, verify and use the official Romanization from the CBCK Directory (https://directory.cbck.or.kr/) (e.g., Fr. Franciscus Xaverius Park Hyo-jae).
 
 ## 2. Liturgy Schedule
 Format this as a simple bulleted list with the date, day, and event name.

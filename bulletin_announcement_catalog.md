@@ -338,4 +338,23 @@ This catalog serves as the master database for all announcements that have appea
 * Fee: $[Amount] (lunch and dinner provided)
 * Contact: [Name & Baptismal Name] ([Group Name])
 
+---
+
+### 35. Weekday Evening Mass
+**Template:**
+**New Weekday Evening Mass**
+* Date/time: Monthly, [e.g., first Wednesday] at [Time] PM
+* Location: [Location, e.g., Small Chapel]
+* Description: We are establishing an evening mass for those who find it difficult to attend on weekday mornings. We ask for your interest and participation.
+
+---
+
+### 36. Senior Bible Study / Reading Group
+**Template:**
+**Catholic Bible Study Senior Reading Group**
+* Target: Senior parishioners
+* Contact: [Group/Ministry Name] [Phone Number]
+* Description: We are recruiting participants for a blessed Bible reading group for seniors. In this group, we will read the Bible from beginning to end and share reflections together. There is no homework, and attendance is flexible.
+
+
 
