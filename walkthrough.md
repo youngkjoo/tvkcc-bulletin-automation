@@ -25,6 +25,8 @@ We have successfully executed the weekly bulletin translation and publishing job
    - Translated 9 announcements following the style guide and catalog templates (including *Father's Day Event*, *Sacrament of Confirmation*, *Lifted HS Summer Camp*, *RCIA*, *Charismatic Conference*, etc.).
    - Translated the new announcement about the **Weekday Evening Mass** (first Wednesday of the month at 7:30 PM).
    - Translated the new announcement about the **Catholic Bible Study Senior Reading Group** (Bible study for seniors, contact (925) 487-6055).
+   - **Corrected Priest Name**: Updated the liturgy schedule to use **Fr. Franciscus Xaverius Park Hyo-jae** (formerly Fr. Hyojo Park F. Xavier) according to the official CBCK directory.
+   - **Layout Alignment**: Rearranged the announcement columns to match the exact order of the original Korean bulletin (putting the *Senior Reading Group* notice at the bottom of the left column, and the *Italy Pilgrimage* notice in the right column between RCIA and the Charismatic Conference).
 
 5. **Generated Output & Published**:
    - Saved the Markdown draft to [weekly_translation_draft_2026-06-21.md](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_2026-06-21.md).

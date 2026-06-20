@@ -24,7 +24,7 @@
 ---
 
 ## 3. Liturgy & Key Dates (전례 및 주요 일정)
-* **6/28 (Sun)** Fr. Hyojo Park F. Xavier Mass Celebrant (9:30 AM). It is a fundraising mass for the repair work at Ganggu Church.
+* **6/28 (Sun)** Fr. Franciscus Xaverius Park Hyo-jae Mass Celebrant (9:30 AM). It is a fundraising mass for the repair work at Ganggu Church.
 * **7/1 (Wed)** Wednesday Evening Mass (7:30 PM)
 * **7/2 (Thu)** Holy Hour
 * **7/11 (Sat)** Marian Devotion Mass
@@ -63,10 +63,10 @@
 * Location: Small Chapel
 * Description: We are establishing an evening mass for those who find it difficult to attend on weekday mornings. We ask for your interest and participation.
 
-### Additional Recruitment for Italy Pilgrimage
-* Target: 3-5 people (parishioners only)
-* Application Deadline: 6/21 (Sun)
-* Contact: 김승미 Seraphina (925) 875-8752
+### Catholic Bible Study Senior Reading Group
+* Target: Senior parishioners
+* Contact: Tri-Valley Catholic Bible Study (925) 487-6055
+* Description: We are recruiting participants for a blessed Bible reading group for seniors. In this group, we will read the Bible from beginning to end and share reflections together. There is no homework, and attendance is flexible.
 
 ### Korean-American Catholic High School Summer Camp: Lifted
 * Target: For all incoming freshmen to outgoing seniors
@@ -89,10 +89,10 @@
 * Application Deadline: 8/30 (Sun)
 * We ask for your interest and cooperation in recruiting prospective catechumens.
 
-### Catholic Bible Study Senior Reading Group
-* Target: Senior parishioners
-* Contact: Tri-Valley Catholic Bible Study (925) 487-6055
-* Description: We are recruiting participants for a blessed Bible reading group for seniors. In this group, we will read the Bible from beginning to end and share reflections together. There is no homework, and attendance is flexible.
+### Additional Recruitment for Italy Pilgrimage
+* Target: 3-5 people (parishioners only)
+* Application Deadline: 6/21 (Sun)
+* Contact: 김승미 Seraphina (925) 875-8752
 
 ### 30th Northern California Charismatic Conference
 * Theme: "Behold, I make all things new." (Rev 21:5)
