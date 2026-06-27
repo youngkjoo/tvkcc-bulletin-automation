@@ -15,7 +15,7 @@ Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style g
 ## 2. Liturgy Schedule
 Format this as a simple bulleted list with the date, day, and event name.
 **Important:** If a liturgy item has a sub-note (e.g., a donation deadline), include it as a sentence immediately after the item — not as a separate bullet.
-- **Current Date Exclusion:** Do NOT list the current Sunday bulletin's liturgy or mass events under the future "Liturgy & Key Dates" list, even if they were listed as future dates in the previous week's bulletin. This list is reserved strictly for upcoming future key dates.
+- **Strict Adherence to PDF:** Under the future "Liturgy & Key Dates" list, strictly translate and include ONLY the events that are explicitly written under the "전례 및 주요 일정" section of the current week's Korean bulletin PDF. Do NOT carry over past dates from previous bulletins or make assumptions.
 **Example:**
 * 5/3 (Sun) TVKCC Youth Day 9 AM mass, First communion, children's baptism, Youth Faith Festival
 * 5/17 (Sun) Outdoor Mass & Marian Day (10 AM, combined Korean/English Mass), 11 AM CCOP Mass
