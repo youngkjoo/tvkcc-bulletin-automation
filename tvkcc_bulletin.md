@@ -80,7 +80,16 @@ Use `master_template.html` (located in the root directory) as the **strict refer
 After generating the HTML file, **update the index page** at `docs/index.html`:
 - Add a new `<li>` entry at the TOP of the `<ul class="archive-list">` for the new bulletin (newest first).
 
-### 9. Publish (Auto-Run)
+### 9. Automated Quality Check & In-depth Verification
+**CRITICAL:** Before publishing, execute the automated validation script to ensure structural and translation consistency week-over-week.
+- Run `python3 scripts/validate_bulletin.py` via `run_command` (with `SafeToAutoRun: true`).
+- The script will automatically verify that:
+  1. The **Church Info** block and the **Mass Schedule Table** match `master_template.html` and the previous week's bulletin exactly (ensuring no accidental edits or style changes to unchanging blocks).
+  2. Any Korean announcement/notice that remains identical week-over-week has an **exact copy** of the previous week's English translation.
+- If the script outputs any failures, fix the generated HTML file and draft before proceeding.
+- Once the automated script passes, perform a final comparative check of the translated English HTML contents to ensure complete accuracy against the original Korean PDF.
+
+### 10. Publish (Auto-Run)
 Commit and push the new files to GitHub. Set `SafeToAutoRun: true` in your `run_command` tool so the user is NOT prompted for permission.
 ```bash
 git add docs/bulletins/[YYYY-MM-DD].html docs/index.html drafts/weekly_translation_draft_[YYYY-MM-DD].md
@@ -88,7 +97,7 @@ git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
 
-### 10. Open in Browser & Final Verification
+### 11. Open in Browser & Final Verification
 After pushing to GitHub, use the `run_command` tool to open the original Korean PDF, the local Markdown draft, and the local HTML page in a new browser window for the user's post-publish inspection.
 Run this command:
 `open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/[YYYY-MM-DD].html`
@@ -97,7 +106,7 @@ Run this command:
 
 **Note**: Inform the user that the workflow is complete and provide the public sharing URL for the new HTML page (e.g. `https://youngkjoo.github.io/tvkcc-bulletin-automation/bulletins/[YYYY-MM-DD].html`). Ask if any manual corrections are needed.
 
-### 11. Continuous Learning — Style & Catalog Update
+### 12. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
 1.  **Scan for New Patterns**: Check if any new announcement types were created. If they are likely to recur, add them to `bulletin_announcement_catalog.md`.
 2.  **Style Guide Sync**: If the user made manual edits to the wording or formatting (e.g., "Use * instead of ●"), update `bulletin_style_guide.md` immediately to reflect these preferences for next week.
