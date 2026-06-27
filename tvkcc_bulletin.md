@@ -29,6 +29,7 @@ When the user triggers the hybrid workflow for a specific date (e.g. `2026-06-28
 - Display the English translation draft to the user.
 - Ask the user to review the translations, specifically pointing out any newly translated community announcements.
 - Allow the user to make adjustments or requests (e.g., "Change the location of Ladies Night to Gym"). Apply these edits to the draft.
+- **Dynamic Asset & QR Code Extraction**: If there are new visual assets (such as QR codes or images) embedded in the Korean PDF that are missing from the draft, write and run custom extraction scripts (e.g., using Swift, Python, or PDF extraction tools) on the local Macbook to extract, convert, and place them in the correct repository location.
 
 ### Step 3. Generate HTML Bulletin Page
 Using the approved translation draft, generate the styled HTML bulletin at `docs/bulletins/[YYYY-MM-DD].html`. Follow the **HTML Layout Rules** (Section 3 below) to copy the structure of `master_template.html` and replace placeholders.
