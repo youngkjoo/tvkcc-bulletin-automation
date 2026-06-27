@@ -24,6 +24,11 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 - **Parish Leadership**: Dynamic header section containing current pastor and council personnel contacts.
 - **Navigation System**: Interlinked "Previous Week" and "Next Week" buttons on every page for easy browsing of past bulletins.
 
+### 4. Automated Quality Verification
+- **Static Blocks Consistency**: Verifies that unchanging sections (church info, mass table layout) match the master template and the previous week's page exactly.
+- **Wording & Style Alignment**: Compares Korean PDF texts between the current and previous weeks, ensuring that identical Korean announcements reuse exact English translations for 100% style and naming consistency.
+- **Automated Validation Script**: Executed programmatically using `scripts/validate_bulletin.py` before any commit/push to prevent regressions.
+
 ---
 
 ## 📂 Repository Structure
@@ -34,6 +39,8 @@ The **TVKCC Bulletin Automation System** is a high-fidelity web publishing pipel
 ├── bulletin_style_guide.md     # Strict rules for translation
 ├── bulletin_announcement_catalog.md # Reusable templates
 ├── drafts/                     # Weekly translation drafts (Markdown files)
+├── scripts/                    # Automation and validation helper scripts
+│   └── validate_bulletin.py    # Week-over-week quality validation script
 └── docs/                       # Web root folder served by GitHub Pages
     ├── index.html              # Main archive/landing page (2026 Bulletins)
     ├── style.css               # Shared design system (typography, colors, layout)
@@ -79,7 +86,8 @@ The assistant will:
 4.  Generate a Markdown translation draft for review.
 5.  Generate the final styled HTML page.
 6.  Update `index.html` with the new entry.
-7.  Commit and push all changes to the GitHub repository.
+7.  Run `scripts/validate_bulletin.py` to check structural & announcement translation consistency.
+8.  Commit and push all changes to the GitHub repository.
 
 ---
 
