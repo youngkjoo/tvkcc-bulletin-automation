@@ -10,10 +10,12 @@ Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style g
 - **Bullet Points:** Use standard markdown asterisks (`*`) for all bullets. Do NOT use Unicode characters like `●` or `◦`.
 - **Header:** Every bulletin starts with the liturgy title and date on the same line, e.g., `Fifth Sunday of Easter  5/3/2026`
 - **Korean Priest Names:** For the English spelling of Korean priests' names, verify and use the official Romanization from the CBCK Directory (https://directory.cbck.or.kr/) (e.g., Fr. Franciscus Xaverius Park Hyo-jae).
+- **Sunday Liturgy Title:** Keep it simple and strictly use the main liturgical name (e.g., "Thirteenth Sunday in Ordinary Time"). Do NOT append parenthetical themes or day annotations such as "(Pope's Day)" even if present in the Korean title.
 
 ## 2. Liturgy Schedule
 Format this as a simple bulleted list with the date, day, and event name.
 **Important:** If a liturgy item has a sub-note (e.g., a donation deadline), include it as a sentence immediately after the item — not as a separate bullet.
+- **Current Date Exclusion:** Do NOT list the current Sunday bulletin's liturgy or mass events under the future "Liturgy & Key Dates" list, even if they were listed as future dates in the previous week's bulletin. This list is reserved strictly for upcoming future key dates.
 **Example:**
 * 5/3 (Sun) TVKCC Youth Day 9 AM mass, First communion, children's baptism, Youth Faith Festival
 * 5/17 (Sun) Outdoor Mass & Marian Day (10 AM, combined Korean/English Mass), 11 AM CCOP Mass

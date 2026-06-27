@@ -356,5 +356,36 @@ This catalog serves as the master database for all announcements that have appea
 * Contact: [Group/Ministry Name] [Phone Number]
 * Description: We are recruiting participants for a blessed Bible reading group for seniors. In this group, we will read the Bible from beginning to end and share reflections together. There is no homework, and attendance is flexible.
 
+---
+
+### 37. Priest Feast Day / Patronal Feast Day
+**Template:**
+**Fr. [Name]'s Patronal Feast Day**
+* [Date] is Fr. [Name]'s Patronal Feast Day (Name Day). We pray that he may always minister with joy and health in the love and prayers of all parishioners, and that God's grace and blessings will always be with him.
+
+---
+
+### 38. General Fundraising / Donation Appeal
+**Template:**
+**Fundraising for [Cause / Church Name]**
+* Description: Please support the fundraising for [Cause / e.g., the repair work at Ganggu Church in Andong Diocese].
+* Offerings: Pledge forms and cash/check offerings will be accepted in the church hall before and after today's [Mass Time, e.g., 9:30 AM] mass. A small thank-you gift ([Gift, e.g., soy sauce]) will be provided for those who donate.
+* Online Donations: Online donations through our parish office Tithe.ly or Zelle will be accepted until [Deadline Date, e.g., July 2 (Thu)]. Please add the memo "[Memo, e.g., Gang-gu]" when transferring.
+
+---
+
+### 39. Sacrament Certificates & Photos Distribution
+**Template:**
+**Sacrament Certificates & Photos Distribution**
+* Description: Certificates and photos for the [Sacrament/Event, e.g., Easter Vigil Baptism and First Holy Communion] are ready. Please pick them up at the office desk before or after mass.
+
+---
+
+### 40. Gratitude to Outgoing Pastoral Council / Group Leaders
+**Template:**
+**Gratitude to Outgoing Pastoral Council and Group Leaders**
+* Description: We express our deepest gratitude to all the pastoral council members and group leaders who have joyfully served our parish community over the past [duration, e.g., two years] as their terms come to an end.
+
+
 
 
