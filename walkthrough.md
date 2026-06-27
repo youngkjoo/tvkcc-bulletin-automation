@@ -8,7 +8,7 @@ We have successfully executed the weekly bulletin translation and publishing job
    - Downloaded the original bulletin PDF locally from `https://www.tvkcc.org/wp-content/uploads/2026/06/06282026_748.pdf`.
 
 2. **Extracted Liturgical Info & Colors**:
-   - Sunday Liturgical Title: **Thirteenth Sunday in Ordinary Time (Pope's Day)**
+   - Sunday Liturgical Title: **Thirteenth Sunday in Ordinary Time**
    - Liturgical Color Class: `liturgical-green` (Ordinary Time, based on background color extraction `#38761d` from Page 1).
    - Injected a `<style>` block in the head of the generated HTML to precisely override the title bar background color to `#38761d` (to match the exact green color from the Korean PDF).
 

@@ -24,7 +24,6 @@
 ---
 
 ## 3. Liturgy & Key Dates (전례 및 주요 일정)
-* **6/28 (Sun)** Fr. Franciscus Xaverius Park Hyo-jae Mass Celebrant (9:30 AM). It is a fundraising mass for the repair work at Ganggu Church.
 * **7/1 (Wed)** Wednesday Evening Mass (7:30 PM)
 * **7/2 (Thu)** Holy Hour
 * **7/11 (Sat)** Marian Devotion Mass
@@ -96,7 +95,7 @@
 ### New Weekday Evening Mass
 * Date/time: Monthly, first Wednesday at 7:30 PM
 * Location: Small Chapel
-* Description: We are establishing an evening mass for those who find it difficult to attend on weekday mornings. We ask for your interest and participation.
+* Description: We am establishing an evening mass for those who find it difficult to attend on weekday mornings. We ask for your interest and participation.
 
 ---
 
