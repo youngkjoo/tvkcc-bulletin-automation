@@ -44,18 +44,18 @@
 ### Establishment of the 8th Pastoral Council
 * Description: We express our gratitude to the chairpersons of each committee and leaders of organizations of the 8th Pastoral Council who will serve our parish community for the next two years. We ask for all parishioners' prayers and cooperation.
 * Council Members:
-  * **President:** 홍사현 요셉 Joseph Hong
-  * **Vice President & Small Community Committee Chair:** 김승미 세라피나 Seraphina Kim (serves concurrently)
-  * **Secretaries:** 최교운 안드레아 Andrea Choi, 한재영 에드워드 Edward Han
-  * **Liturgy Committee Chair:** 하성곤 요제프 Joseph Ha
-  * **English Liturgy Committee Chair:** 안혜영 미카엘라 Michaela Ahn
-  * **Charity Committee Chair:** 함종식 마티아 Matthias Ham
-  * **Public Relations Committee Chair:** 김선기 시몬 Simon Kim
-  * **Education Committee Chair:** 박민숙 엘리사벳 Elisabeth Park
-  * **Facilities Committee Chair:** 최광석 아브라함 Abraham Choi
-  * **Women's Committee Chair & St. Mary's Society President:** 유연호 안나 Anna Yoo (serves concurrently)
-  * **Men's Committee Chair & St. Joseph's Society President:** 김지용 예레니모 Jeronimo Kim (serves concurrently)
-  * **Bereavement Service Committee Chair & Bereavement Society President:** 박주암 레오폴드 Leopold Park (serves concurrently)
+  * **President:** 홍사현 요셉
+  * **Vice Presidents:** 최교운 안드레아, 김승미 세라피나 (Basic Christian Faith Community Lead concurrently)
+  * **Secretaries:** 김민호 레오, 한재영 에드워드
+  * **Liturgy Committee Chair:** 하성곤 요제프
+  * **English Liturgy Committee Chair:** 안혜영 미카엘라
+  * **Charity Committee Chair:** 함종식 마티아
+  * **Public Relations Committee Chair:** 김선기 시몬
+  * **Education Committee Chair:** 박민숙 엘리사벳
+  * **Facilities Committee Chair:** 최광석 아브라함
+  * **Women's Committee Chair & St. Mary's Society President:** 유연호 안나 (serves concurrently)
+  * **Men's Committee Chair & St. Joseph's Society President:** 김지용 예레니모 (serves concurrently)
+  * **Bereavement Service Committee Chair & Bereavement Society President:** 박주암 레오폴드 (serves concurrently)
 
 ### Parish Office Closure
 * Cursillo Attendance: 7/16 (Thu), 7/17 (Fri), and 7/19 (Sun) (Office manager attending Cursillo).
