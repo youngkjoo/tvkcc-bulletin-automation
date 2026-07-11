@@ -45,14 +45,13 @@
 ## 5. Community Events & Announcements (본당 소식 및 공지)
 
 ### Appointment of Finance Council
-* Description: We announce the appointments of the Finance Council members:
-  * **Chairperson:** 홍석제 그레고리오
-  * **Members:** 장찬 베드로, 조미정 카타리나, 김영균 빅토르
+* **Chairperson:** 홍석제 그레고리오
+* **Members:** 장찬 베드로, 조미정 카타리나, 김영균 빅토르
 
 ### Parish Office Closure
-* Cursillo Attendance: 7/16 (Thu), 7/17 (Fri), and 7/19 (Sun) (Office manager attending Cursillo).
-* Vacation: 7/23 (Thu) and 7/24 (Fri) (Office manager on vacation).
-* Contact: If you have urgent matters, please contact us by email (office@tvkcc.org), and we will reply as soon as possible.
+* **7/16 (Thu), 7/17 (Fri), and 7/19 (Sun):** Office manager attending Cursillo.
+* **7/23 (Thu) and 7/24 (Fri):** Office manager on vacation.
+* If you have urgent matters, please contact us by email (office@tvkcc.org), and we will reply as soon as possible.
 
 ### Sacrament of Confirmation, Confirmation Classes & Adult Education
 * Target: Adult parishioners who have not received the Sacrament of Confirmation. (Middle/high school students follow the Oakland Diocese confirmation program).
@@ -65,15 +64,10 @@
 * How to apply: Get the application form from the office desk and submit it, or download the form from the parish website, fill it out, and email it to the office.
 * Note: Those who have already received Confirmation but wish to attend for faith re-education, please fill out the Google Form below: https://forms.gle/QhZxTbGduwd825Ns5
 
-### Share Your Stories!
-* Description: We would love for you to share your unique and personal stories with us. Sharing our thoughts is highly beneficial to our faith life. There are no restrictions on the format (diaries, essays, poems, etc.), and the topic is completely open. Please feel free to reach out anytime. Sharing enriches us all.
-* Submission details: Contributions are welcome year-round and can be published with your name or anonymously.
-* Send to: Please email your written pieces to Father at dpoc2006@gmail.com.
-
 ### 2026-2027 Sunday School Registration
-* Registration Form: https://www.tvkcc.org/sundayschool202526
-* Submission: Please send your completed registration form to sundayschool@tvkcc.org.
-* Registration Fee: Send payment via Zelle (saenj574@gmail.com) or Venmo (@Yoseb-Shim). Please make sure to include the student's name in the memo field when transferring.
+* **Registration Form:** https://www.tvkcc.org/sundayschool202526
+* Please send your completed registration form to sundayschool@tvkcc.org.
+* Send registration fee via Zelle (saenj574@gmail.com) or Venmo (@Yoseb-Shim). Please make sure to include the student's name in the memo field when transferring.
 
 ### 2026-2027 RCIA (Rite of Christian Initiation of Adults)
 * Initiation Ceremony (Baptism): 3/28/2027 (Easter Sunday)
@@ -89,9 +83,14 @@
 * Fee: $30 (lunch and dinner provided)
 * Contact: 박민숙 Elisabeth Park (Charismatic Prayer Group)
 
+### Share Your Stories!
+* We would love for you to share your unique and personal stories with us. Sharing our thoughts is highly beneficial to our faith life. There are no restrictions on the format (diaries, essays, poems, etc.), and the topic is completely open. Please feel free to reach out anytime. Sharing enriches us all.
+* Contributions are welcome year-round and can be published with your name or anonymously.
+* Please email your written pieces to Father at dpoc2006@gmail.com.
+
 ---
 
-## 6. Offertory & Donations (우리의 정성)
+## 6. Offertory & Donations (우 우리의 정성)
 
 ### Last Week's Offering
 | Category | Amount |
