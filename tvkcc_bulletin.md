@@ -97,14 +97,17 @@ git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
 
-### 11. Open in Browser & Final Verification
-After pushing to GitHub, use the `run_command` tool to open the original Korean PDF, the local Markdown draft, and the local HTML page in a new browser window for the user's post-publish inspection.
-Run this command:
-`open -n -a "Google Chrome" --args --new-window [URL to Korean PDF] file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/[YYYY-MM-DD].html`
+### 11. Final Verification Links & Cleanup
+Do NOT open a Chrome window automatically via commands. Instead, at the end of the turn, print a structured list containing all verification links so the user can open them manually.
+Include:
+- **Korean Bulletin PDF Link**: The URL to the original Korean PDF (whether scraped from the website or the conventional URL if manually provided).
+- **Local Markdown Draft Link**: Clickable link to `file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md`.
+- **Local HTML Page Link**: Clickable link to `file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/[YYYY-MM-DD].html`.
+- **Public Published URL**: The GitHub Pages sharing link (e.g., `https://youngkjoo.github.io/tvkcc-bulletin-automation/bulletins/[YYYY-MM-DD].html`).
 
-**Cleanup**: After launching Google Chrome, run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
+**Cleanup**: Run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
 
-**Note**: Inform the user that the workflow is complete and provide the public sharing URL for the new HTML page (e.g. `https://youngkjoo.github.io/tvkcc-bulletin-automation/bulletins/[YYYY-MM-DD].html`). Ask if any manual corrections are needed.
+**Note**: Inform the user that the workflow is complete and present the links clearly. Ask if any manual corrections are needed.
 
 ### 12. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
