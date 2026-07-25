@@ -4,6 +4,7 @@ Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style g
 
 ## 1. General Formatting & Typography
 - **Religious Terms:** Use **Church** instead of Cathedral when referring to the local parish building. Use **Church vestibule** for locations. Use **Infant Baptism** instead of Baptism.
+- **Chapel vs Church:** Use **Chapel** for 소성당, and **Church** for 대성당. (For example, use Chapel instead of Small Chapel, and Church instead of main church or 대성당).
 - **Personnel:** Use **Basic Christian Faith Community Lead** instead of Chief District Leader.
 - **Bible Groups:** Format small groups as **Luke #8** instead of Luca 8.
 - **Dates:** Always format dates as `M/D (Day)` (e.g., `4/26 (Sun)` or `5/3 (Sun)`). Use **Pre-order period** instead of Reservation for sales events.

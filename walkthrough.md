@@ -21,9 +21,9 @@ We have successfully executed the weekly bulletin translation and publishing job
 
 4. **Translated and Cataloged Announcements**:
    - Translated 7 announcements following the style guide and catalog templates:
-     - **Pastoral Council Appointments**: Added new appointments for Youth Ministry Committee Chair (`이성미 안나`) and History & Records Committee Chair (`김영균 요한 사도`).
-     - **Solemnity of the Assumption of the Blessed Virgin Mary Mass**: Added mass schedule for 8/15 (Sat) at 9:30 AM in the Small Chapel, replacing the August Marian Devotion Mass.
-     - **Sacrament of Confirmation, Confirmation Classes & Adult Education**: Re-verified class schedule and application details.
+     - **Pastoral Council Appointments**: Added new appointments for Youth Ministry Committee Chair (`이성미 안나`) and History & Records Committee Chair (`김영호 요한 사도`).
+     - **Solemnity of the Assumption of the Blessed Virgin Mary Mass**: Added mass schedule for 8/15 (Sat) at 9:30 AM in the Chapel (소성당), replacing the August Marian Devotion Mass.
+     - **Sacrament of Confirmation, Confirmation Classes & Adult Education**: Re-verified class schedule, Chapel location (소성당), and rehearsal in the Church (대성당).
      - **2026-2027 Sunday School Registration**: Styled cleanly without extra headers.
      - **2026-2027 RCIA (Rite of Christian Initiation of Adults)**: Maintained consistency with historical translations.
      - **30th Northern California Charismatic Conference**: Held on August 8, 2026.
@@ -35,3 +35,4 @@ We have successfully executed the weekly bulletin translation and publishing job
    - Updated the navigation link on [2026-07-19.html](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/2026-07-19.html) to link forward to July 26.
    - Updated the main archive page [index.html](file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/index.html) (shifted `Latest` badge to July 26).
    - Run quality verification script and verified it passed successfully.
+   - Cleaned up all temporary files inside `temp_extraction/`.

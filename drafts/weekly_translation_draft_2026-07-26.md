@@ -25,7 +25,7 @@
 
 ## 3. Liturgy & Key Dates (전례 및 주요 일정)
 * **8/2 (Sun)** Start of Confirmation Classes (8/2, 8/16, 8/30, 9/6)
-* **8/5 (Wed)** Wednesday Evening Mass (7:30 PM, Small Chapel)
+* **8/5 (Wed)** Wednesday Evening Mass (7:30 PM, Chapel)
 * **8/6 (Thu)** Holy Hour
 * **8/8 (Sat)** Northern California Charismatic Conference (St. Michael Korean Catholic Church in San Francisco)
 * **8/9 (Sun)** Cursillo Secretariat Meeting
@@ -48,11 +48,11 @@
 
 ### Pastoral Council Appointments
 * **Youth Ministry Committee Chair:** 이성미 안나
-* **History & Records Committee Chair:** 김영균 요한 사도
+* **History & Records Committee Chair:** 김영호 요한 사도
 
 ### Solemnity of the Assumption of the Blessed Virgin Mary Mass
 * **Date/time:** 8/15 (Sat) 9:30 AM
-* **Location:** Small Chapel
+* **Location:** Chapel
 * The monthly August Marian Devotion Mass will be replaced by the Solemnity of the Assumption Mass on this day.
 
 ### Sacrament of Confirmation, Confirmation Classes & Adult Education
@@ -60,8 +60,8 @@
 * Confirmation Ceremony: 9/27 (Sun) during Mass
 * Presider: Bishop Simon Joo-young Kim (Bishop of Chuncheon Diocese)
 * Confirmation Classes: 8/2, 8/16, 8/30, 9/6 from 2:00 PM to 4:00 PM
-* Location: Small Chapel and Rooms A/B
-* Liturgical Rehearsal: 9/20 (Sun) after 11:00 AM Mass in the main church
+* Location: Chapel and Rooms A/B
+* Liturgical Rehearsal: 9/20 (Sun) after 11:00 AM Mass in the Church
 * Note: Those who have already received Confirmation but wish to attend for faith re-education, please fill out the Google Form below: https://forms.gle/QhZxTbGduwd825Ns5
 
 ### 2026-2027 Sunday School Registration
