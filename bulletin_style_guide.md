@@ -24,6 +24,7 @@ Format this as a simple bulleted list with the date, day, and event name.
 
 ## 3. Community Events & Announcements
 When translating announcements from the Korean bulletin, structure them with the main Title, followed by bulleted properties. Ensure consistency in property labels.
+- **Content Order & Accuracy Priority:** Do NOT change the order of announcements from how they appear in the Korean PDF, even if splitting them into columns results in slightly unbalanced column layouts. Content accuracy and exact representation of what is present in the Korean bulletin is ALWAYS more important than keeping the layout clean or column heights balanced. If an announcement is not in the Korean PDF for the current week, remove it entirely.
 - **Combined properties:** When multiple short properties logically group together, you may combine them on a single line using `/` separators (e.g., `Hosted by: ... / Target: ...`).
 - **Combined Date/time/location:** If concise, use `Date/time/location:` on a single line.
 - Standard keys:

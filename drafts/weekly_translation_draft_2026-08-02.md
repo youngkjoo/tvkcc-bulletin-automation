@@ -67,22 +67,6 @@
 * Proceeds will be donated to the church development fund.
 * Contact: 유연호 안나 (612) 849-0873
 
-### St. Joseph's Society (Men's Committee) Member Recruitment
-* St. Joseph's Society (Men's Committee) is a gathering of male parishioners between the Young Adult Group and the Joachim Society to share fellowship, participate in various church events, and serve the community. We look forward to your interest and participation.
-* Contact: 김지용 예로니모 (josephgroup@tvkcc.org)
-
-### Sacrament of Confirmation, Confirmation Classes & Adult Education
-* Target: Adult parishioners who have not received the Sacrament of Confirmation. (Middle/high school students follow the Oakland Diocese confirmation program).
-* Confirmation Ceremony: 9/27 (Sun) during Mass
-* Presider: Bishop Simon Joo-young Kim (Bishop of Chuncheon Diocese)
-* Confirmation Classes: 8/2, 8/16, 8/30, 9/6 from 2:00 PM to 4:00 PM
-* Location: Chapel and Rooms A/B
-* Liturgical Rehearsal: 9/20 (Sun) after 11:00 AM Mass in the Church
-* Note: Those who have already received Confirmation but wish to attend for faith re-education, please fill out the Google Form below: https://forms.gle/QhZxTbGduwd825Ns5
-
-### Thank-You Gift from Ganggu Church
-* Ganggu Church sent 120 bottles of soy sauce as a token of gratitude to our parishioners who participated in the building fund collection. One bottle per household contributing to the annual pledge (114 households). Please pick it up.
-
 ### 2026-2027 Sunday School Registration
 * **Registration Form:** https://www.tvkcc.org/sundayschool202526
 * Please send your completed registration form to sundayschool@tvkcc.org.
@@ -93,6 +77,19 @@
 * Class Start Date: 9/6 (Sun), 11:00 AM
 * Application Deadline: 8/30 (Sun)
 * We ask for your interest and cooperation in recruiting prospective catechumens.
+
+### St. Joseph's Society (Men's Committee) Member Recruitment
+* St. Joseph's Society (Men's Committee) is a gathering of male parishioners between the Young Adult Group and the Joachim Society to share fellowship, participate in various church events, and serve the community. We look forward to your interest and participation.
+* We hope for your interest and participation in our faith community where we pray together, serve together, and grow together.
+* Contact: 김지용 예로니모 (josephgroup@tvkcc.org)
+
+### Sacrament of Confirmation, Confirmation Classes & Adult Education
+* Confirmation Ceremony: 9/27 (Sun) during Mass
+* Presider: Bishop Simon Joo-young Kim (Bishop of Chuncheon Diocese)
+* Confirmation Classes: 8/2, 8/16, 8/30, 9/6 from 2:00 PM to 4:00 PM
+* Location: Chapel and Rooms A/B
+* Liturgical Rehearsal: 9/20 (Sun) after 11:00 AM Mass in the Church
+* Note: Those who have already received Confirmation but wish to attend for faith re-education, please fill out the Google Form below: https://forms.gle/QhZxTbGduwd825Ns5
 
 ### 30th Northern California Charismatic Conference
 * Theme: "Behold, I make all things new." (Rev 21:5)
@@ -106,10 +103,8 @@
 * We would like to look out for neighbors in need of assistance. If you know anyone around you experiencing difficulties, please let us know via the link below. Your small care will gather to practice warm love.
 * Request Link: https://forms.gle/K9C5nPqUL7n5Ge2r
 
-### Share Your Stories!
-* We would love for you to share your unique and personal stories with us. Sharing our thoughts is highly beneficial to our faith life. There are no restrictions on the format (diaries, essays, poems, etc.), and the topic is completely open. Please feel free to reach out anytime. Sharing enriches us all.
-* Contributions are welcome year-round and can be published with your name or anonymously.
-* Please email your written pieces to Father at dpoc2006@gmail.com.
+### Thank-You Gift from Ganggu Church
+* Ganggu Church sent 120 bottles of soy sauce as a token of gratitude to our parishioners who participated in the building fund collection. One bottle per household contributing to the annual pledge (114 households). Please pick it up.
 
 ---
 
