@@ -49,19 +49,21 @@
 ## 5. Community Events & Announcements (본당 소식 및 공지)
 
 ### Appointment of Basic Christian Faith Community Leaders
-* **Luke 1:** 김선영 세실리아
-* **Luke 2:** 김선희 글라라
-* **Luke 3:** 서은식 프란치스코
-* **Luke 4, 5, 6:** 최지원 베로니카
-* **Luke 7:** Vacant
-* **Luke 8:** Vacant
-* **John:** Vacant
-* **Matthew 1, 2:** 이은송 마리아
-* **Matthew 3:** 조영주 안나
-* **Matthew 4:** 한재영 에드워드, 김성규 바오로
-* **Matthew 5:** 최진욱 바오로
-* **Matthew 6:** Vacant
-* **Matthew 7:** Vacant
+| Small Community | Leader | Vice-Leader |
+| :--- | :--- | :--- |
+| Luke #1 | 김선영 세실리아 | — |
+| Luke #2 | 김선희 글라라 | — |
+| Luke #3 | 서은식 프란치스코 | — |
+| Luke #4, 5, 6 | 최지원 베로니카 | — |
+| Luke #7 | Vacant | — |
+| Luke #8 | Vacant | — |
+| John | Vacant | — |
+| Matthew #1, 2 | 이은송 마리아 | — |
+| Matthew #3 | 조영주 안나 | — |
+| Matthew #4 | 한재영 에드워드 | 김성규 바오로 |
+| Matthew #5 | 최진욱 바오로 | — |
+| Matthew #6 | Vacant | — |
+| Matthew #7 | Vacant | — |
 
 ### St. Mary's Society 3rd Quarter Group Purchase
 * Items: Sesame oil, grains, and other agricultural/marine products.

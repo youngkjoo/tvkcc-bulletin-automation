@@ -386,6 +386,17 @@ This catalog serves as the master database for all announcements that have appea
 **Gratitude to Outgoing Pastoral Council and Group Leaders**
 * Description: We express our deepest gratitude to all the pastoral council members and group leaders who have joyfully served our parish community over the past [duration, e.g., two years] as their terms come to an end.
 
+---
+
+### 41. Appointment of Basic Christian Faith Community Leaders
+**Template:**
+**Appointment of Basic Christian Faith Community Leaders**
+* Note: Format as a 3-column table with headers `Small Community`, `Leader`, and `Vice-Leader`.
+| Small Community | Leader | Vice-Leader |
+| :--- | :--- | :--- |
+| Luke #1 | [Name] | [Name / —] |
+
+
 
 
 
