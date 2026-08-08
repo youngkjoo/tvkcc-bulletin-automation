@@ -49,7 +49,7 @@
 ## 5. Community Events & Announcements (본당 소식 및 공지)
 
 ### Appointment of Basic Christian Faith Community Leaders
-| Small Community | Leader | Vice-Leader |
+| Faith Community | Leader | Vice-Leader |
 | :--- | :--- | :--- |
 | Luke #1 | 김선영 세실리아 | — |
 | Luke #2 | 김선희 글라라 | — |

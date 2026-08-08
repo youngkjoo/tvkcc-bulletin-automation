@@ -391,8 +391,8 @@ This catalog serves as the master database for all announcements that have appea
 ### 41. Appointment of Basic Christian Faith Community Leaders
 **Template:**
 **Appointment of Basic Christian Faith Community Leaders**
-* Note: Format as a 3-column table with headers `Small Community`, `Leader`, and `Vice-Leader`.
-| Small Community | Leader | Vice-Leader |
+* Note: Format as a 3-column table with headers `Faith Community`, `Leader`, and `Vice-Leader`.
+| Faith Community | Leader | Vice-Leader |
 | :--- | :--- | :--- |
 | Luke #1 | [Name] | [Name / —] |
 
