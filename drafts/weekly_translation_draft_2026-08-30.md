@@ -65,7 +65,7 @@
 * Application deadline: By September 15 (Tue)
 * Online application: https://forms.gle/2N8XUYwgm9Zth2636
 * Mass offerings accepted: At the office desk in front of the Chapel before and after Mass.
-* Please note that the Mass starts earlier than usual. There will be no living intention Mass (생미사) on that day.
+* Please note that the Mass starts earlier than usual. There will be no general intentions on that day.
 
 ### 2026-2027 RCIA (Rite of Christian Initiation of Adults)
 * Initiation Ceremony (Baptism): 3/27/2027 (Easter Vigil)

@@ -13,6 +13,7 @@ Based on analysis of translated bulletins (2024–2026, 103+ PDFs), this style g
 - **Header:** Every bulletin starts with the liturgy title and date on the same line, e.g., `Fifth Sunday of Easter  5/3/2026`
 - **Korean Priest Names:** For the English spelling of Korean priests' names, verify and use the official Romanization from the CBCK Directory (https://directory.cbck.or.kr/) (e.g., Fr. Franciscus Xaverius Park Hyo-jae).
 - **Sunday Liturgy Title:** Keep it simple and strictly use the main liturgical name (e.g., "Thirteenth Sunday in Ordinary Time"). Do NOT append parenthetical themes or day annotations such as "(Pope's Day)" even if present in the Korean title.
+- **Mass Intentions:** Use **general intentions** for 생미사 when stating that ordinary Mass intentions are not accepted on special memorial/joint mass days (e.g., "There will be no general intentions on that day.").
 
 ## 2. Liturgy Schedule
 Format this as a simple bulleted list with the date, day, and event name.
