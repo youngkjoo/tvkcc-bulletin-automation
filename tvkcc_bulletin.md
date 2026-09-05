@@ -89,7 +89,13 @@ After generating the HTML file, **update the index page** at `docs/index.html`:
 - If the script outputs any failures, fix the generated HTML file and draft before proceeding.
 - Once the automated script passes, perform a final comparative check of the translated English HTML contents to ensure complete accuracy against the original Korean PDF.
 
-### 10. Publish (Auto-Run)
+### 10. Facility Reservation Cross-Check (SES Schedule)
+Cross-check all Community Events (and key meetings/liturgies) against the parish facility reservation requests schedule at `https://youngkjoo.github.io/ses-schedule/`.
+- Run `python3 scripts/check_facility_reservations.py docs/bulletins/[YYYY-MM-DD].html` via `run_command`.
+- The script automatically fetches the SES schedule data, compares date, time, and room assignments for each community event, and outputs a formatted Markdown comparison table.
+- Include this comparison table in your final summary to the user so any discrepancies between the bulletin and facility reservations (e.g. room mismatches or missing bookings) are immediately visible.
+
+### 11. Publish (Auto-Run)
 Commit and push the new files to GitHub. Set `SafeToAutoRun: true` in your `run_command` tool so the user is NOT prompted for permission.
 ```bash
 git add docs/bulletins/[YYYY-MM-DD].html docs/index.html drafts/weekly_translation_draft_[YYYY-MM-DD].md
@@ -97,20 +103,21 @@ git commit -m "Add weekly bulletin for [YYYY-MM-DD]"
 git push
 ```
 
-### 11. Final Verification Links & Cleanup
-Do NOT open a Chrome window automatically via commands. Instead, at the end of the turn, print a structured list containing all verification links so the user can open them manually.
+### 12. Final Verification Links & Cleanup
+Do NOT open a Chrome window automatically via commands. Instead, at the end of the turn, print a structured list containing all verification links and the Facility Reservation Cross-Check report so the user can review them manually.
 Include:
 - **Korean Bulletin PDF Link**: The URL to the original Korean PDF (whether scraped from the website or the conventional URL if manually provided).
 - **Local Markdown Draft Link**: Clickable link to `file:///Users/youngjoo/Vibe/TVKCC%20Jubo/drafts/weekly_translation_draft_[YYYY-MM-DD].md`.
 - **Local HTML Page Link**: Clickable link to `file:///Users/youngjoo/Vibe/TVKCC%20Jubo/docs/bulletins/[YYYY-MM-DD].html`.
 - **Public Published URL**: The GitHub Pages sharing link (e.g., `https://youngkjoo.github.io/tvkcc-bulletin-automation/bulletins/[YYYY-MM-DD].html`).
+- **Facility Reservation Cross-Check Report**: The markdown table generated in Step 10 comparing bulletin events against `https://youngkjoo.github.io/ses-schedule/`.
 
 **Cleanup**: Run the terminal command `rm -rf temp_extraction/` to completely delete all temporary raw extraction text files and maintain a clean workspace directory.
 
 **Note**: Inform the user that the workflow is complete and present the links clearly. Ask if any manual corrections are needed.
 
-### 12. Continuous Learning — Style & Catalog Update
+### 13. Continuous Learning — Style & Catalog Update
 After the bulletin is finalized and published:
 1.  **Scan for New Patterns**: Check if any new announcement types were created. If they are likely to recur, add them to `bulletin_announcement_catalog.md`.
 2.  **Style Guide Sync**: If the user made manual edits to the wording or formatting (e.g., "Use * instead of ●"), update `bulletin_style_guide.md` immediately to reflect these preferences for next week.
-3.  **Commit Updates**: Push the updated catalog and style guide to GitHub.
+3.  **Commit Updates**: Push the updated catalog, style guide, and scripts to GitHub.
