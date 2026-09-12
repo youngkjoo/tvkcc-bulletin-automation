@@ -79,18 +79,6 @@
 * Date/time & Location: September 20 (Sun) 11:00 AM, Room A
 * Ultreya is a gathering where Cursillistas encourage one another to live as lay apostles evangelizing the world with sound faith. In this month's meeting, we will discuss the All-Parish Ultreya to be held at our parish, the Guiding School, and the Year-End Gathering. We look forward to your active participation.
 
-### Novena Intentions for Confirmation Candidates
-* 9/18 (Fri): In thanksgiving for the candidates and God's grace
-* 9/19 (Sat): For the candidates, their families, and godparents
-* 9/20 (Sun): For the candidates and volunteers
-* 9/21 (Mon): For the candidates and inactive parishioners
-* 9/22 (Tue): For the candidates and non-believers
-* 9/23 (Wed): For the candidates and those suffering from war and climate crises
-* 9/24 (Thu): For the candidates and catechumens
-* 9/25 (Fri): For the candidates and the sick
-* 9/26 (Sat): For the candidates and parish members
-* Confirmation Candidates: 권은영 레지나, 기호성 라우렌시오, 김수연 세실리아, 김연서 메토디오, 김용재 하상 바오로, 김태우 안젤로, 김형주 요한, 김효주 크리스티나, 남선숙 요안나, 문지영 율리안나, 박우성 바오로, 심세웅 요셉, 심태미 아드리아나, 이아인 마르첼로, 이영화 그라타, 이제중 안셀모, 이희선 마르첼라, 인용란 벨리나, 한은경 마르첼라, 한재영 에드워드, 허수진 글라라, 황준영 요한사도, 황희숙 세라피나, Cody Walton
-
 ### Charity Committee Seeking Helping Hands
 * We would like to look out for neighbors in need of assistance. If you know anyone around you experiencing difficulties, please let us know via the link below. Your small care will gather to practice warm love.
 * Request Link: https://forms.gle/K9C5nPqUL7n5Ge2r5
@@ -116,6 +104,18 @@
 * Burial Ceremony: September 17 (Thu) 1:00 PM, Holy Sepulchre Cemetery (26320 Mission Blvd, Hayward)
 * Reception after Burial: September 17 (Thu) 2:00 PM, Ban Suk Jung (7877 Amador Valley Blvd, Dublin)
 
+### Novena Intentions for Confirmation Candidates
+* 9/18 (Fri): In thanksgiving for the candidates and God's grace
+* 9/19 (Sat): For the candidates, their families, and godparents
+* 9/20 (Sun): For the candidates and volunteers
+* 9/21 (Mon): For the candidates and inactive parishioners
+* 9/22 (Tue): For the candidates and non-believers
+* 9/23 (Wed): For the candidates and those suffering from war and climate crises
+* 9/24 (Thu): For the candidates and catechumens
+* 9/25 (Fri): For the candidates and the sick
+* 9/26 (Sat): For the candidates and parish members
+* Confirmation Candidates: 권은영 레지나, 기호성 라우렌시오, 김수연 세실리아, 김연서 메토디오, 김용재 하상 바오로, 김태우 안젤로, 김형주 요한, 김효주 크리스티나, 남선숙 요안나, 문지영 율리안나, 박우성 바오로, 심세웅 요셉, 심태미 아드리아나, 이아인 마르첼로, 이영화 그라타, 이제중 안셀모, 이희선 마르첼라, 인용란 벨리나, 한은경 마르첼라, 한재영 에드워드, 허수진 글라라, 황준영 요한사도, 황희숙 세라피나, Cody Walton
+
 ---
 
 ## 6. Offertory & Donations (우리의 정성)
@@ -137,3 +137,45 @@
 * **Vocation Promotion (성소 후원)**: 고문순 (9,10), 남석훈 (9), 박중량 (9), 이성태 (7,8), 이주하 (9), 이희선 (7-12), 조현대 (9), 채성우 (9), 최교운 (9), 홍석제 (9)
 * **Bishop's Appeal**: 고문순 (9,10), 남석훈 (9), 이성태 (7,8), 이주하 (9), 이희선 (7-12), 조현대 (9), 채성우 (9), 최교운 (9), 홍석제 (9)
 * **Snack Donation (간식 봉헌)**: 오대석 바오로 신부님
+
+---
+
+## 7. Special Announcements: Pastoral Visit of Bishop Simon Joo-young Kim (Page 2)
+
+### Bishop's Main Schedule (주교님 주요 일정)
+* 9/21 (Mon): Welcome Greeting
+* 9/22 (Tue): Mass (9:30 AM, Chapel); After Mass: PTA Meeting & Pastoral Council Meeting
+* 9/23 (Wed): Light hike (9:30 AM) & lunch; Mass (7:30 PM, Church); After Mass: Conversation with St. Joseph's Society & Faith Community Leaders (Church courtyard)
+* 9/24 (Thu): Mass (9:30 AM, Chapel); After Mass: St. Anne's Society (성모회) Meeting & St. John District Meeting
+* 9/27 (Sun): Confirmation Mass (9:30 AM, Church); After Mass: Snack sharing & Parish Feast Day Event (Bridges Clubhouse, 1:00 PM)
+* 9/28 (Mon): Farewell Greeting
+
+### Bishop Simon Joo-young Kim Arrival & Departure Schedule
+* Location: San Francisco International Airport (SFO)
+* Eligible: All parishioners who wish to participate in the welcome and farewell (individual transportation)
+* Arrival: September 21 (Mon) 10:40 AM
+* Departure: September 28 (Mon) 12:50 PM
+
+### Hiking with the Bishop
+* All parishioners are invited to the hike with the Bishop organized by the Pastoral Council. Enjoy a pleasant time walking together in beautiful nature.
+* Date/Time: September 23 (Wed)
+* Location: Lake Chabot (17600 Lake Chabot Rd, Castro Valley)
+* Gathering: 9:30 AM at the Church parking lot (carpool) / 10:00 AM at the park
+* What to bring: Bring your own lunch (water provided)
+* Duration: Approx. 3 hours (Hike approx. 1.5 to 2 hours)
+* Sign-up Link: https://forms.gle/TxiCDpej9epMcxB39
+
+### Meeting with St. Anne's Society (성모회) & the Bishop
+* Date/Time: September 24 (Thu) 10:30 AM
+* Location: Sports Park
+* Registration: Sign up through each group leader (조장)
+* What to bring: Outdoor chair, hat
+* Note: After Thursday weekday Mass, move to the Sports Park for a meeting and lunch together. We encourage many members of St. Anne's Society to attend.
+
+### Parishioners Lunch with the Bishop (Registration & Headcount)
+* Date/Time: September 27 (Sun) 1:00 PM (after Confirmation Mass)
+* Location: Bridges Clubhouse (9050 S Gale Ridge Rd, San Ramon)
+* How to register (Please register through ONE method only):
+  (1) Faith Community Leaders
+  (2) Top announcement on official KakaoTalk
+  (3) Online registration link: https://forms.gle/5KB6UJZRGjGWbXDZ7
