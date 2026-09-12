@@ -11,9 +11,22 @@ def get_calendar_data():
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         html = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
-        match = re.search(r'const calendarData = (\[[\s\S]*?\]);\s*let activeMonthKey', html)
-        if match:
-            return json.loads(match.group(1))
+        idx = html.find('const calendarData = ')
+        if idx != -1:
+            sub = html[idx + len('const calendarData = '):]
+            # Match the JSON array directly up to the closing ];
+            bracket_count = 0
+            end_idx = 0
+            for i, c in enumerate(sub):
+                if c == '[':
+                    bracket_count += 1
+                elif c == ']':
+                    bracket_count -= 1
+                    if bracket_count == 0:
+                        end_idx = i + 1
+                        break
+            if end_idx > 0:
+                return json.loads(sub[:end_idx])
     except Exception as e:
         print(f"Error fetching calendar data: {e}", file=sys.stderr)
     return None
