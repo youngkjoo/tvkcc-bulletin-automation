@@ -144,10 +144,22 @@
 
 ### Bishop's Main Schedule (주교님 주요 일정)
 * 9/21 (Mon): Welcome Greeting
-* 9/22 (Tue): Mass (9:30 AM, Chapel); After Mass: PTA Meeting & Pastoral Council Meeting
-* 9/23 (Wed): Light hike (9:30 AM) & lunch; Mass (7:30 PM, Church); After Mass: Conversation with St. Joseph's Society & Faith Community Leaders (Church courtyard)
-* 9/24 (Thu): Mass (9:30 AM, Chapel); After Mass: St. Anne's Society (성모회) Meeting & St. John District Meeting
-* 9/27 (Sun): Confirmation Mass (9:30 AM, Church); After Mass: Snack sharing & Parish Feast Day Event (Bridges Clubhouse, 1:00 PM)
+* 9/22 (Tue):
+  * Mass (9:30 AM, Chapel)
+  * After Mass: PTA Meeting
+  * Pastoral Council Meeting
+* 9/23 (Wed):
+  * Light hike (9:30 AM) & lunch
+  * Mass (7:30 PM, Church)
+  * After Mass: Conversation with St. Joseph's Society & Faith Community Leaders (Church courtyard)
+* 9/24 (Thu):
+  * Mass (9:30 AM, Chapel)
+  * After Mass: St. Anne's Society (성모회) Meeting
+  * Yohan Group Meeting
+* 9/27 (Sun):
+  * Confirmation Mass (9:30 AM, Church)
+  * After Mass: Snack sharing
+  * Parish Feast Day Event (Bridges Clubhouse, 1:00 PM)
 * 9/28 (Mon): Farewell Greeting
 
 ### Bishop Simon Joo-young Kim Arrival & Departure Schedule
