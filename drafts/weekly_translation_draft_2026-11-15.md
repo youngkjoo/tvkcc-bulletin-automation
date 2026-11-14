@@ -53,7 +53,7 @@
 * Handicrafts made by artisans from marginalized and impoverished regions around the world will be sold to help residents achieve self-reliance. We ask for your generous support.
 * Website: https://marketplace.concernamerica.org
 
-### Catholic Biblical Apostolate in the Americas
+### Catholic Bible Life Movement
 * Tri-Valley Ministers of the Word Meeting: 11/16 (Mon) 7:00 PM | Zoom
 * Northern California Ministers of the Word Monthly Training: 11/16 (Mon) 7:30 PM | Zoom (Lecturer: Fr. Maron Cheun Young-su)
 

@@ -30,7 +30,7 @@ We have successfully executed the weekly bulletin translation and publishing job
    - **Announcements (12 items, balanced 6 and 6 across two columns)**:
      - **TVKCC Ultreya November Meeting**: Today, 11/15 (Sun) 11:00 AM in Room A.
      - **Concern America Craft Sale**: Today, 11/15 (Sun) before and after the Korean and English Masses.
-     - **Catholic Biblical Apostolate in the Americas**: Tri-Valley Ministers of the Word Meeting (11/16 Mon 7:00 PM, Zoom) and Northern California Ministers of the Word Monthly Training (11/16 Mon 7:30 PM, Zoom, Lecturer: Fr. Maron Cheun Young-su).
+     - **Catholic Bible Life Movement**: Tri-Valley Ministers of the Word Meeting (11/16 Mon 7:00 PM, Zoom) and Northern California Ministers of the Word Monthly Training (11/16 Mon 7:30 PM, Zoom, Lecturer: Fr. Maron Cheun Young-su).
      - **St. Mary's Society 2nd Half General Assembly**: 11/22 (Sun) 10:45 AM – 11:15 AM in Room A.
      - **St. Mary's Society 4th Quarter Group Purchase**: Sesame oil, grains, and other agricultural/marine products; order deadline 11/23, pick-up 12/8 (Tue) before/after Mass.
      - **Advent Wreath Making Event Hosted by St. Mary's Society**: 11/28 (Sat) 5:00 PM – 8:00 PM in Room A ($40 participation / $40 pre-made purchase).
